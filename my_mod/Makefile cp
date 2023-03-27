@@ -1,0 +1,13 @@
+obj-m += WJ_firewall.o
+WJ_firewall-objs += sha256.o
+
+# HEAD_DIR := /lib/modules/$(shell uname -r)/build/include
+KDIR := /lib/modules/$(shell uname -r)/build
+PWD  := $(shell pwd)
+MOD_NAME := "WJ_firewall.ko"
+
+default:
+	# gcc -o WJ_firewall.o WJ_firewall.c
+	# gcc -I$(HEAD_DIR) -c sha256.c -o sha256.o
+	$(MAKE) -C $(KDIR) M=$(PWD) modules
+	cp $(MOD_NAME) "../bin/"
