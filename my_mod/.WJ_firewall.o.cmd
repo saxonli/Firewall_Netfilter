@@ -1258,7 +1258,7 @@ deps_/home/saxon/桌面/Firewal_Netfilter_Reconstruction/my_mod/WJ_firewall.o :=
   include/uapi/linux/rtc.h \
   include/linux/cdev.h \
   include/linux/inet.h \
-  /home/saxon/桌面/Firewal_Netfilter_Reconstruction/my_mod/include/sha256.h \
+  /home/saxon/桌面/Firewal_Netfilter_Reconstruction/my_mod/sha256.h \
 
 /home/saxon/桌面/Firewal_Netfilter_Reconstruction/my_mod/WJ_firewall.o: $(deps_/home/saxon/桌面/Firewal_Netfilter_Reconstruction/my_mod/WJ_firewall.o)
 

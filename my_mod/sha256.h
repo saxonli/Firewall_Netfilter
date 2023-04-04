@@ -1,8 +1,13 @@
-#include "sha256.h"
+#include <linux/types.h>
+#include <linux/skbuff.h>
+#include <linux/init.h>
+#include <linux/module.h>
+#include <linux/kernel.h>
+#include <linux/time.h>
 
+#define SHA256_BLOCK_SIZE 32
 #define ROTLEFT(a,b) (((a) << (b)) | ((a) >> (32-(b))))
 #define ROTRIGHT(a,b) (((a) >> (b)) | ((a) << (32-(b))))
-
 #define CH(x,y,z) (((x) & (y)) ^ (~(x) & (z)))
 #define MAJ(x,y,z) (((x) & (y)) ^ ((x) & (z)) ^ ((y) & (z)))
 #define EP0(x) (ROTRIGHT(x,2) ^ ROTRIGHT(x,13) ^ ROTRIGHT(x,22))
@@ -10,6 +15,14 @@
 #define SIG0(x) (ROTRIGHT(x,7) ^ ROTRIGHT(x,18) ^ ((x) >> 3))
 #define SIG1(x) (ROTRIGHT(x,17) ^ ROTRIGHT(x,19) ^ ((x) >> 10))
 
+typedef unsigned char BYTE;
+typedef unsigned int  WORD;
+typedef struct {
+	BYTE ctxdata[64];
+	WORD datalen;
+	unsigned long long bitlen;
+	WORD state[8];
+} SHA256_CTX;
 static const WORD k[64] = {
 	0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,
 	0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,
@@ -94,6 +107,7 @@ void SHA256_Update(SHA256_CTX *ctx, const BYTE databuf[], WORD len)
 void SHA256_Final(SHA256_CTX *ctx, BYTE hash[])
 {
 	WORD i;
+
 	i = ctx->datalen;
 
 	if (ctx->datalen < 56) {
@@ -132,5 +146,3 @@ void SHA256_Final(SHA256_CTX *ctx, BYTE hash[])
 	}
 
 }
-
-MODULE_LICENSE("GPL");
