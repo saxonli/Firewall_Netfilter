@@ -306,34 +306,6 @@ bool ipaddr_check(unsigned int saddr, unsigned int daddr){
 }
 
 /**
- * @func: 本防火墙IP地址判断
- * @desc: 检查check_saddr是否为本防火墙的IP地址
- * @param: {check_saddr:需要检查的IP地址}  
- * @return: {MATCH/NMATCH} 
- */
-bool local_ipaddr_check(__be32 check_saddr)
-{
-	char cur_saddr[16];
-	char ip_local_list[2][16];
-	int i;
-
-	memset(cur_saddr,0,sizeof(cur_saddr));
-	addr_from_net(cur_saddr, check_saddr);
-
-	strcpy(ip_local_list[0],"192.168.0.3");
-	strcpy(ip_local_list[1],"192.168.1.2");
-
-	for(i = 0; i < LOCAL_IP_LEN; ++i)
-	{
-		if(strcmp(ip_local_list[i],cur_saddr) == 0)
-		{
-			return MATCH;
-		}
-	}
-	return NMATCH;
-}
-
-/**
  * @func: ICMP包检查
  * @desc: 检查当前ICMP包是否与某黑名单规则匹配
  * @param: {NULL}  
@@ -581,38 +553,6 @@ unsigned int pre_routing_hook_func(void * priv,struct sk_buff *skb,const struct 
 				}
 			}
 		}
-
-
-
-		// // 该Traceroute包不可信内，则进行Deception逻辑处理
-		// if(piphdr->ttl == 1)
-		// {
-		// 	printk("NF_INET_PRE_ROUTING gets a new traceroute serial！\n");
-		// 	return NF_ACCEPT;
-		// }
-		// preserve_ttl = piphdr->ttl;
-		// printk("<WJ>cur ttl in pre:%d\n",preserve_ttl);
-
-		// // icmp 端口不可达处理，是否到达了maxhop
-		// if(piphdr->ttl >= deception_maxhop)
-		// {
-		// 	// printk("<WJ>pre maxhop is reached\n");
-		// 	preserve_saddr = piphdr->daddr;
-		// } 
-
-		// // 修改 TTL 值，使得包被本机防火墙处理
-		// piphdr->ttl = 1;
-
-		// // 重新计算 udp 校验和
-		// unsigned int len;
-		// len = ntohs(piphdr->tot_len) - (piphdr->ihl << 2);
-		// pudphdr->check = 0;
-        // pudphdr->check = csum_tcpudp_magic(piphdr->saddr, piphdr->daddr, len, IPPROTO_UDP, csum_partial(pudphdr, len, 0));
-
-		// // 重新计算 ip 校验和
-		// piphdr->check=0;
-		// piphdr->check=ip_fast_csum((unsigned char *)piphdr,piphdr->ihl);
-		// return NF_ACCEPT;
 	}
 
 	return NF_ACCEPT;
@@ -684,69 +624,6 @@ unsigned int post_routing_hook_func(void * priv,struct sk_buff *skb,const struct
 			}
 		}
 	}
-
-	// // Deception 模块处理，不需要经历黑名单处理
-	// if(piphdr->protocol == 1 && local_ipaddr_check(piphdr->saddr) && preserve_ttl != 0) // 可能需要被处理的 ICMP 报文
-	// {
-	// 	// printk("<WJ>cur ttl in post:%d\n",piphdr->ttl);
-	// 	struct icmphdr *picmphdr;// ICMP 头部
-	// 	picmphdr = (struct icmphdr *)(tmpskb->data +(piphdr->ihl*4));
-	// 	if (picmphdr->type == 11) // ICMP 超时报文
-	// 	{
-	// 		if(preserve_ttl<deception_maxhop)
-	// 		{
-	// 			// 进行欺骗，利用 config 文件修改本机处理后 ICMP 超时报文的 SADDR
-
-	// 			// 从第 preserve_ttl-1 行 IP 地址里随机取一个
-	// 			char deception_ip_list[DECEPTION_IP_MAX_NUM][16];
-	// 			memset(deception_ip_list,0,sizeof(deception_ip_list));
-	// 			int list_pos=0;
-	// 			int pre_pos=0;
-	// 			int pos;
-	// 			for(pos = 0;pos < strlen(deception_ip_line[preserve_ttl-1]) + 1;++pos)
-	// 			{
-	// 				if(deception_ip_line[preserve_ttl-1][pos]==' ')
-	// 				{
-	// 					strncpy(deception_ip_list[list_pos],deception_ip_line[preserve_ttl-1]+pre_pos, pos - pre_pos);
-	// 					// printk("<WJ>ttl:%d, idx:%d, ip:%s\n",preserve_ttl,list_pos,deception_ip_list[list_pos]);
-	// 					pre_pos = pos + 1;
-	// 					list_pos = list_pos + 1;
-	// 				}
-	// 			}
-	// 			char deception_ip[16];
-	// 			memset(deception_ip,0,sizeof(deception_ip));
-	// 			int random_ip_idx = my_rand()%list_pos;
-	// 			if(random_ip_idx < 0) random_ip_idx = -1 * random_ip_idx;
-	// 			strncpy(deception_ip,deception_ip_list[random_ip_idx],16);
-
-	// 			piphdr->saddr = in_aton(deception_ip);
-	// 			addr_from_net(deception_ip, piphdr->saddr);
-	// 			printk("<WJ>ttl:%d, random_idx:%d ,%s\n",preserve_ttl,random_ip_idx,deception_ip);
-	// 		}
-	// 		else
-	// 		{
-	// 			// printk("<WJ>post maxhop is reached\n");
-	// 			picmphdr->type=3;
-	// 			piphdr->saddr=preserve_saddr;
-	// 			// data 未填充
-	// 		}
-
-	// 		// 修改本机处理后 ICMP 超时报文的 TTL
-	// 		piphdr->ttl = DEFAULT_TTL - preserve_ttl;
-
-	// 		// ！！！！！！！！！！！！！！！！！！延迟 preserve_ttl * 2 ms 发送
-
-	// 		preserve_ttl = 0;
-
-	// 		// // 重新计算 ip 及 icmp 校验和
-	// 		piphdr->check=0;
-	// 		piphdr->check=ip_fast_csum((unsigned char *)piphdr,piphdr->ihl);
-	// 		picmphdr->checksum=0;
-	// 		picmphdr->checksum=in_cksum((unsigned short *)picmphdr,ntohs(piphdr->tot_len)-(piphdr->ihl<<2));
-	// 		return NF_ACCEPT;
-	// 	}
-	// }
-
 
 	// 黑名单处理
 	if(num == 0) return NF_ACCEPT; // write_controlinfo 中计算过规则条数
