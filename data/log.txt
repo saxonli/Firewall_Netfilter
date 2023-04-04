@@ -12419,3 +12419,91 @@ cur ttl in pre:8
 2023/03/07 11:03:22  ICMP packet from  192.168.9.100   to  192.168.5.3   rejected by rule 23 
 2023/03/07 11:03:23  ICMP packet from  192.168.9.100   to  192.168.5.3   rejected by rule 23 
 2023/03/07 11:03:24  ICMP packet from  192.168.9.100   to  192.168.5.3   rejected by rule 23 
+2023/03/30 10:20:55  ICMP packet from  192.168.69.13   to  192.168.69.13   rejected by rule 1 
+2023/03/30 10:20:56  ICMP packet from  192.168.69.13   to  192.168.69.13   rejected by rule 1 
+2023/03/30 10:20:57  ICMP packet from  192.168.69.13   to  192.168.69.13   rejected by rule 1 
+2023/03/30 10:21:54  UDP packet from  192.168.69.13:5353  to  224.0.0.251:5353  rejected by rule 3 
+2023/03/30 10:21:54  UDP packet from  192.168.69.13:5353  to  224.0.0.251:5353  rejected by rule 3 
+2023/03/30 10:21:55  UDP packet from  192.168.69.13:46587  to  192.168.69.13:33434  rejected by rule 3 
+2023/03/30 10:24:34  UDP packet from  192.168.69.13:42707  to  192.168.69.13:33435  accept by TRUST IP
+2023/03/30 10:24:34  UDP packet from  127.0.0.1:39045  to  127.0.1.1:53  rejected by rule 3 
+2023/03/30 10:24:34  UDP packet from  127.0.0.1:45045  to  127.0.1.1:53  rejected by rule 3 
+2023/03/30 10:24:34  UDP packet from  192.168.69.13:42707  to  192.168.69.13:33436  accept by TRUST IP
+2023/03/30 10:24:34  UDP packet from  192.168.69.13:42707  to  192.168.69.13:33437  accept by TRUST IP
+2023/03/30 10:24:45  UDP packet from  192.168.69.13:43342  to  192.168.69.13:33435  accept by TRUST IP
+2023/03/30 10:24:45  UDP packet from  127.0.0.1:58199  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:24:45  UDP packet from  127.0.0.1:57243  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:24:45  UDP packet from  192.168.69.13:43342  to  192.168.69.13:33436  accept by TRUST IP
+2023/03/30 10:24:45  UDP packet from  192.168.69.13:43342  to  192.168.69.13:33437  accept by TRUST IP
+2023/03/30 10:25:23  UDP packet from  192.168.69.13:44395  to  192.168.69.13:33435  accept by TRUST IP
+2023/03/30 10:25:23  UDP packet from  127.0.0.1:45175  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:25:23  UDP packet from  127.0.0.1:41397  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:25:23  UDP packet from  192.168.69.13:44395  to  192.168.69.13:33436  accept by TRUST IP
+2023/03/30 10:25:23  UDP packet from  192.168.69.13:44395  to  192.168.69.13:33437  accept by TRUST IP
+2023/03/30 10:25:27  UDP packet from  127.0.0.1:38696  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:25:27  UDP packet from  127.0.0.1:40602  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:25:27  UDP packet from  127.0.0.1:35324  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:25:27  UDP packet from  127.0.0.1:50504  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:25:27  UDP packet from  127.0.0.1:34580  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:25:27  UDP packet from  127.0.0.1:38727  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:25:27  UDP packet from  127.0.0.1:49139  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:25:27  UDP packet from  127.0.0.1:59129  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:25:27  UDP packet from  127.0.0.1:35884  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:25:27  UDP packet from  127.0.0.1:34537  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:25:27  UDP packet from  127.0.0.1:42245  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:25:27  UDP packet from  127.0.0.1:42070  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:25:31  UDP packet from  192.168.69.13:50413  to  91.189.94.4:123  rejected by rule 2 
+2023/03/30 10:25:31  UDP packet from  192.168.69.13:42826  to  185.125.190.57:123  rejected by rule 2 
+2023/03/30 10:25:31  UDP packet from  192.168.69.13:41766  to  185.125.190.58:123  rejected by rule 2 
+2023/03/30 10:25:31  UDP packet from  192.168.69.13:46675  to  185.125.190.56:123  rejected by rule 2 
+2023/03/30 10:25:31  UDP packet from  192.168.69.13:35359  to  91.189.91.157:123  rejected by rule 2 
+2023/03/30 10:25:59  UDP packet from  192.168.69.13:52499  to  192.168.69.13:33434  rejected by rule 2 
+2023/03/30 10:26:29  UDP packet from  192.168.69.13:47642  to  192.168.69.13:33435  accept by TRUST IP
+2023/03/30 10:26:29  UDP packet from  127.0.0.1:55106  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:26:29  UDP packet from  127.0.0.1:43050  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:26:29  UDP packet from  192.168.69.13:47642  to  192.168.69.13:33436  accept by TRUST IP
+2023/03/30 10:26:29  UDP packet from  192.168.69.13:47642  to  192.168.69.13:33437  accept by TRUST IP
+2023/03/30 10:26:43  UDP packet from  192.168.69.13:5353  to  224.0.0.251:5353  rejected by rule 2 
+2023/03/30 10:26:43  UDP packet from  192.168.69.13:5353  to  224.0.0.251:5353  rejected by rule 2 
+2023/03/30 10:29:58  UDP packet from  192.168.69.13:5353  to  224.0.0.251:5353  rejected by rule 2 
+2023/03/30 10:29:58  UDP packet from  192.168.69.13:5353  to  224.0.0.251:5353  rejected by rule 2 
+2023/03/30 10:30:06  UDP packet from  192.168.69.13:49572  to  192.168.69.13:33435  accept by TRUST IP
+2023/03/30 10:30:06  UDP packet from  127.0.0.1:34893  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:30:06  UDP packet from  127.0.0.1:32909  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:30:06  UDP packet from  192.168.69.13:49572  to  192.168.69.13:33436  accept by TRUST IP
+2023/03/30 10:30:06  UDP packet from  192.168.69.13:49572  to  192.168.69.13:33437  accept by TRUST IP
+2023/03/30 10:31:56  ICMP packet from  192.168.69.13   to  192.168.69.14   rejected by rule 1 
+2023/03/30 10:31:57  ICMP packet from  192.168.69.13   to  192.168.69.14   rejected by rule 1 
+2023/03/30 10:31:58  ICMP packet from  192.168.69.13   to  192.168.69.14   rejected by rule 1 
+2023/03/30 10:31:59  ICMP packet from  192.168.69.13   to  192.168.69.14   rejected by rule 1 
+cur ttl in pre:2
+cur ttl in pre:2
+cur ttl in pre:2
+cur ttl in pre:3
+cur ttl in pre:3
+cur ttl in pre:3
+cur ttl in pre:4
+cur ttl in pre:4
+cur ttl in pre:4
+cur ttl in pre:5
+cur ttl in pre:5
+cur ttl in pre:5
+cur ttl in pre:6
+2023/03/30 10:32:27  UDP packet from  127.0.0.1:45665  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:32:27  UDP packet from  127.0.0.1:46974  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:32:27  UDP packet from  127.0.0.1:38099  to  127.0.1.1:53  rejected by rule 2 
+2023/03/30 10:32:27  UDP packet from  127.0.0.1:54836  to  127.0.1.1:53  rejected by rule 2 
+cur ttl in pre:2
+cur ttl in pre:2
+cur ttl in pre:2
+cur ttl in pre:3
+cur ttl in pre:3
+cur ttl in pre:3
+cur ttl in pre:4
+cur ttl in pre:4
+cur ttl in pre:4
+cur ttl in pre:5
+cur ttl in pre:5
+cur ttl in pre:5
+cur ttl in pre:6
+                                                                                                                                                                                                                                                                                                                                                                                    
