@@ -41,3 +41,5 @@
     - 修改/usr/lib/x86_64-linux-gnu/qt-default/qtchooser/default.conf文件为新安装Qt路径
     - 使用Qt前还需安装libGL库：sudo apt-get install libgl1-mesa-dev
 ```
+
+黑名单规则1000条，可信IP1000条

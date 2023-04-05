@@ -12506,4 +12506,975 @@ cur ttl in pre:5
 cur ttl in pre:5
 cur ttl in pre:5
 cur ttl in pre:6
-                                                                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                    2023/04/04 16:36:06  UDP packet from  127.0.0.1:41537  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:06  UDP packet from  127.0.0.1:35293  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:06  UDP packet from  127.0.0.1:41074  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:06  UDP packet from  127.0.0.1:60917  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:42602  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:51128  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:52171  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:58922  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:53445  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:56186  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:53202  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:37608  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:43144  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:57421  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:48722  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:46509  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:33942  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:49107  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:55481  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:55919  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:37630  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:52094  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:39300  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:36957  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:47825  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:35374  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:39443  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:44706  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:60253  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:34468  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:54826  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:51083  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:46869  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:47678  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:59234  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:60327  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:37948  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:33094  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:36182  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:34073  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:55875  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:57140  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:57735  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:07  UDP packet from  127.0.0.1:35229  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:11  UDP packet from  192.168.9.100:55304  to  192.168.5.3:33440  rejected by rule 2 
+2023/04/04 16:36:11  UDP packet from  192.168.9.100:44855  to  192.168.5.3:33441  rejected by rule 2 
+2023/04/04 16:36:11  UDP packet from  192.168.9.100:54653  to  192.168.5.3:33442  rejected by rule 2 
+2023/04/04 16:36:11  UDP packet from  192.168.9.100:57561  to  192.168.5.3:33443  rejected by rule 2 
+2023/04/04 16:36:11  UDP packet from  192.168.9.100:42114  to  192.168.5.3:33444  rejected by rule 2 
+2023/04/04 16:36:11  UDP packet from  192.168.9.100:42083  to  192.168.5.3:33445  rejected by rule 2 
+2023/04/04 16:36:11  UDP packet from  192.168.9.100:38276  to  192.168.5.3:33446  rejected by rule 2 
+2023/04/04 16:36:11  UDP packet from  192.168.9.100:40155  to  192.168.5.3:33447  rejected by rule 2 
+2023/04/04 16:36:11  UDP packet from  192.168.9.100:43656  to  192.168.5.3:33448  rejected by rule 2 
+2023/04/04 16:36:11  UDP packet from  192.168.9.100:41306  to  192.168.5.3:33449  rejected by rule 2 
+2023/04/04 16:36:11  UDP packet from  192.168.9.100:33617  to  192.168.5.3:33450  rejected by rule 2 
+2023/04/04 16:36:11  UDP packet from  192.168.9.100:49571  to  192.168.5.3:33451  rejected by rule 2 
+2023/04/04 16:36:11  UDP packet from  192.168.9.100:40317  to  192.168.5.3:33452  rejected by rule 2 
+2023/04/04 16:36:11  UDP packet from  192.168.9.100:58021  to  192.168.5.3:33453  rejected by rule 2 
+2023/04/04 16:36:11  UDP packet from  192.168.9.100:37310  to  192.168.5.3:33454  rejected by rule 2 
+2023/04/04 16:36:11  UDP packet from  192.168.9.100:56243  to  192.168.5.3:33455  rejected by rule 2 
+2023/04/04 16:36:16  UDP packet from  192.168.9.100:59785  to  192.168.5.3:33456  rejected by rule 2 
+2023/04/04 16:36:16  UDP packet from  192.168.9.100:33102  to  192.168.5.3:33457  rejected by rule 2 
+2023/04/04 16:36:16  UDP packet from  192.168.9.100:51698  to  192.168.5.3:33458  rejected by rule 2 
+2023/04/04 16:36:16  UDP packet from  192.168.9.100:53187  to  192.168.5.3:33459  rejected by rule 2 
+2023/04/04 16:36:16  UDP packet from  192.168.9.100:59538  to  192.168.5.3:33460  rejected by rule 2 
+2023/04/04 16:36:16  UDP packet from  192.168.9.100:50418  to  192.168.5.3:33461  rejected by rule 2 
+2023/04/04 16:36:16  UDP packet from  192.168.9.100:56129  to  192.168.5.3:33462  rejected by rule 2 
+2023/04/04 16:36:16  UDP packet from  192.168.9.100:41577  to  192.168.5.3:33463  rejected by rule 2 
+2023/04/04 16:36:16  UDP packet from  192.168.9.100:39440  to  192.168.5.3:33464  rejected by rule 2 
+2023/04/04 16:36:16  UDP packet from  192.168.9.100:37219  to  192.168.5.3:33465  rejected by rule 2 
+2023/04/04 16:36:16  UDP packet from  192.168.9.100:42207  to  192.168.5.3:33466  rejected by rule 2 
+2023/04/04 16:36:16  UDP packet from  192.168.9.100:54105  to  192.168.5.3:33467  rejected by rule 2 
+2023/04/04 16:36:16  UDP packet from  192.168.9.100:56729  to  192.168.5.3:33468  rejected by rule 2 
+2023/04/04 16:36:16  UDP packet from  192.168.9.100:52643  to  192.168.5.3:33469  rejected by rule 2 
+2023/04/04 16:36:16  UDP packet from  192.168.9.100:45907  to  192.168.5.3:33470  rejected by rule 2 
+2023/04/04 16:36:16  UDP packet from  192.168.9.100:48585  to  192.168.5.3:33471  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:49967  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:41110  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:53574  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:43433  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:57741  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:53623  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:53739  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:38752  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:51720  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:57650  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:54321  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:35357  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:42755  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:48424  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:50239  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:59510  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:32965  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:38771  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:54074  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:60475  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:54604  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:43996  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:35613  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:57212  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:50090  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:41050  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:34384  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:45277  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:47692  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:52405  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:60995  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:46620  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:35469  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:38444  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:47521  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:55658  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:44057  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:48727  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:35864  to  127.0.0.1:53  accept by HASH CHAIN
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:35864  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:35864  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:44702  to  127.0.0.1:53  accept by HASH CHAIN
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:44702  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:37  UDP packet from  127.0.0.1:44702  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:36:55  UDP packet from  192.168.9.100  to  192.168.5.3 rejected
+2023/04/04 16:36:58  UDP packet from  192.168.9.100  to  192.168.5.3 rejected
+2023/04/04 16:37:01  UDP packet from  192.168.9.100  to  192.168.5.3 rejected
+2023/04/04 16:37:04  UDP packet from  192.168.9.100  to  192.168.5.3 rejected
+2023/04/04 16:37:07  UDP packet from  192.168.9.100  to  192.168.5.3 rejected
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:41683  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:39261  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:48865  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:42329  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:52953  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:54352  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:36005  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:47116  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:42733  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:56571  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:35409  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:57913  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:47351  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:38185  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:52662  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:59478  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:57746  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:49202  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:58962  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:45774  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:56200  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:43650  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:44077  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:55085  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:45818  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:33638  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:55924  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:57101  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:34384  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:36264  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:56514  to  127.0.0.1:53  accept by HASH CHAIN
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:56514  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:41994  to  127.0.0.1:53  accept by HASH CHAIN
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:41994  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:47351  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:43192  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:36622  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:42623  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:44257  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:35827  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:40984  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:07  UDP packet from  127.0.0.1:56022  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:10  UDP packet from  192.168.9.100:56022  to  192.168.5.3:53 rejected
+2023/04/04 16:37:13  UDP packet from  192.168.9.100:56022  to  192.168.5.3:53 rejected
+2023/04/04 16:37:16  UDP packet from  192.168.9.100:56022  to  192.168.5.3:53 rejected
+2023/04/04 16:37:19  UDP packet from  192.168.9.100:56022  to  192.168.5.3:53 rejected
+2023/04/04 16:37:22  UDP packet from  192.168.9.100:56022  to  192.168.5.3:53 rejected
+2023/04/04 16:37:25  UDP packet from  192.168.9.100:56022  to  192.168.5.3:53 rejected
+2023/04/04 16:37:28  UDP packet from  192.168.9.100:56022  to  192.168.5.3:53 rejected
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:49653  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:39324  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:39140  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:33401  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:36674  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:33889  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:43870  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:37000  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:48194  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:37809  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:48421  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:57388  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:48910  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:50673  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:60316  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:45329  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:49670  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:57585  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:35782  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:47934  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:56379  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:39914  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:54489  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:43191  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:48684  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:59720  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:50553  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:60075  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:46661  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:52270  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:58716  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:40354  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:48263  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:54773  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:58213  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:52399  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:36162  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:38171  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:53502  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:37:37  UDP packet from  127.0.0.1:33846  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 16:38:18  UDP packet from  192.168.9.100:36126  to  192.168.5.3:33441  accept by TRUST IP
+2023/04/04 16:38:18  UDP packet from  192.168.9.100:36126  to  192.168.5.3:33442  accept by TRUST IP
+2023/04/04 16:38:18  UDP packet from  192.168.9.100:36126  to  192.168.5.3:33443  accept by TRUST IP
+2023/04/04 16:38:18  UDP packet from  192.168.9.100:36126  to  192.168.5.3:33444  accept by TRUST IP
+2023/04/04 16:38:18  UDP packet from  192.168.9.100:36126  to  192.168.5.3:33445  accept by TRUST IP
+2023/04/04 16:38:18  UDP packet from  192.168.9.100:36126  to  192.168.5.3:33446  accept by TRUST IP
+2023/04/04 16:38:19  UDP packet from  192.168.9.100:36126  to  192.168.5.3:33447  accept by TRUST IP
+2023/04/04 16:38:19  UDP packet from  192.168.9.100:36126  to  192.168.5.3:33448  accept by TRUST IP
+2023/04/04 16:38:19  UDP packet from  192.168.9.100:36126  to  192.168.5.3:33449  accept by TRUST IP
+2023/04/04 16:38:19  UDP packet from  192.168.9.100:36126  to  192.168.5.3:33450  accept by TRUST IP
+2023/04/04 16:38:19  UDP packet from  192.168.9.100:36126  to  192.168.5.3:33451  accept by TRUST IP
+2023/04/04 16:38:19  UDP packet from  192.168.9.100:36126  to  192.168.5.3:33452  accept by TRUST IP
+2023/04/04 16:38:19  UDP packet from  192.168.9.100:36126  to  192.168.5.3:33453  accept by TRUST IP
+2023/04/04 16:38:19  UDP packet from  192.168.9.100:36126  to  192.168.5.3:33454  accept by TRUST IP
+2023/04/04 16:38:19  UDP packet from  192.168.9.100:36126  to  192.168.5.3:33455  accept by TRUST IP
+2023/04/04 16:38:37  UDP packet from  192.168.1.2:5353  to  224.0.0.251:5353  rejected by rule 2 
+2023/04/04 16:38:37  UDP packet from  192.168.1.2:5353  to  224.0.0.251:5353  rejected by rule 2 
+2023/04/04 16:38:37  UDP packet from  192.168.0.3:5353  to  224.0.0.251:5353  rejected by rule 2 
+2023/04/04 16:38:37  UDP packet from  192.168.0.3:5353  to  224.0.0.251:5353  rejected by rule 2 
+2023/04/04 16:38:37  UDP packet from  192.168.9.100   to  192.168.5.3  rejected
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:46712  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:59290  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:35478  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:53100  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:46424  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:48145  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:57035  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:46798  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:59052  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:41308  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:54084  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:49106  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:49175  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:45883  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:45756  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:35219  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:43314  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:60933  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:37484  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:40366  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:54172  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:45398  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:58871  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:36401  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:33191  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:48913  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:36836  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:53382  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:37813  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:53811  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:54164  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:52604  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:37984  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:60452  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:59526  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:40894  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:34575  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:40530  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:35956  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:38  UDP packet from  127.0.0.1:48977  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:40  UDP packet from  192.168.9.100:48977  to  192.168.5.3:53 rejected
+2023/04/04 16:38:43  UDP packet from  192.168.9.100:48977  to  192.168.5.3:53 rejected
+2023/04/04 16:38:44  UDP packet from  127.0.0.1:43343  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:44  UDP packet from  127.0.0.1:45101  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:44  UDP packet from  127.0.0.1:33203  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:44  UDP packet from  127.0.0.1:34900  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:38:46  UDP packet from  192.168.9.100:34900  to  192.168.5.3:53 rejected
+2023/04/04 16:38:49  UDP packet from  192.168.9.100:34900  to  192.168.5.3:53 rejected
+2023/04/04 16:38:52  UDP packet from  192.168.9.100:34900  to  192.168.5.3:53 rejected
+2023/04/04 16:38:55  UDP packet from  192.168.9.100:34900  to  192.168.5.3:53 rejected
+2023/04/04 16:38:58  UDP packet from  192.168.9.100:34900  to  192.168.5.3:53 rejected
+2023/04/04 16:39:01  UDP packet from  192.168.9.100:34900  to  192.168.5.3:53 rejected
+2023/04/04 16:44:16  UDP packet from  192.168.9.100   to  192.168.5.3  rejected
+2023/04/04 16:44:19  UDP packet from  192.168.9.100   to  192.168.5.3  rejected
+2023/04/04 16:44:22  UDP packet from  192.168.9.100   to  192.168.5.3  rejected
+2023/04/04 16:44:25  UDP packet from  192.168.9.100   to  192.168.5.3  rejected
+cur_hc:f9bec587630a64d17b75d53a3b08e02e65ea6d52f19389dd1623cdaa6467808c
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 16:48:54  UDP packet from  192.168.9.100   to  192.168.5.3  rejected
+cur_hc:2e6625edb81f5f62940cd1646013d586439409de97a282b6717a05e49d64f85c
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 16:48:57  UDP packet from  192.168.9.100   to  192.168.5.3  rejected
+cur_hc:0fdd7a4fecf96b1e51801a7b8bccc25a9d860639c2a443699d4b44bb737c585b
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 16:49:00  UDP packet from  192.168.9.100   to  192.168.5.3  rejected
+2023/04/04 16:49:03  UDP packet from  127.0.0.1:60500  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:49:03  UDP packet from  127.0.0.1:38117  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:49:03  UDP packet from  127.0.0.1:54975  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:49:03  UDP packet from  127.0.0.1:44414  to  127.0.0.1:53  rejected by rule 2 
+cur_hc:2277ee834ceb12216ae97540d8454a549f1a9b370f65c6c12d28f6245093f393
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 16:49:03  UDP packet from  192.168.9.100:44414  to  192.168.5.3:53 rejected
+cur_hc:dd8d803aa8a1d132b5cad41cf67bf6b2eeb7d2dfafed781f72b3929e5408d7d2
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 16:49:06  UDP packet from  192.168.9.100:44414  to  192.168.5.3:53 rejected
+cur_hc:d889a7c328a3ad185c2f12c40b9b75b1cf003fa9bfd2b3f923e843eaa0e5a424
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 16:50:10  UDP packet from  192.168.9.100   to  192.168.5.3  rejected
+cur_hc:e5c1619d9f1143d617d5b04d875a7537b61649a254a2d2eec85b9e098e9d0a90
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 16:50:13  UDP packet from  192.168.9.100   to  192.168.5.3  rejected
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:41557  to  127.0.0.1:53  accept by TRUST IP
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:41557  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:46761  to  127.0.0.1:53  accept by TRUST IP
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:46761  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:59616  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:54424  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:56793  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:55970  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:56436  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:59973  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:47629  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:39187  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:40044  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:35883  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:43092  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:50316  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:53075  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:40088  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:59849  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:51252  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:40052  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:59208  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:33233  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:34075  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:36896  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:56338  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:56502  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:44204  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:59547  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:56577  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:39313  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:39992  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:52880  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:34862  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:46711  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:34952  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:53383  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:33109  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:46790  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:33104  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:60902  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:50:14  UDP packet from  127.0.0.1:45259  to  127.0.0.1:53  rejected by rule 2 
+cur_hc:143943effa1bb4dcc6fffb16864c5d4176b311afceadae2b4fe10f58ee1ed803
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 16:50:16  UDP packet from  192.168.9.100:45259  to  192.168.5.3:53 rejected
+cur_hc:c69a50100f3e5b4c74d7400562436bb036d87fe415201f683a1a350f0a3bd266
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 16:50:19  UDP packet from  192.168.9.100:45259  to  192.168.5.3:53 rejected
+cur_hc:0559fbaddf1475e1c68dd4d85cfe8c20a9f53aba4ee4844820a39b178878b6fe
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 16:50:22  UDP packet from  192.168.9.100:45259  to  192.168.5.3:53 rejected
+cur_message:37aa406ea51c86fd6232f5a4d4ef09fdb3c42f08180389b06adf2229d552f58c
+cur_hc:6d6510f6982b04fb9a9e2244c13323a8c754d7a4c0b84cc9173bc2359bd253f3
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 16:54:53  UDP packet from  192.168.9.100:37407  to  192.168.5.3:33441 rejected
+cur_message:dda8b260be161ce36ef0bf6a78f24d402f551c03f434e3692660b81007bf9ad3
+cur_hc:37175410219a4c4305777cb27034cda9d2e4e28bdb9c4c28e1d884e30bc30632
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 16:54:56  UDP packet from  192.168.9.100:37407  to  192.168.5.3:33442 rejected
+2023/04/04 16:54:56  UDP packet from  127.0.0.1:41234  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:54:56  UDP packet from  127.0.0.1:51027  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:54:56  UDP packet from  127.0.0.1:33686  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 16:54:56  UDP packet from  127.0.0.1:44607  to  127.0.0.1:53  rejected by rule 2 
+cur_message:883cbcf4b899568fe253bfba4c80bc41c253e89639a3c49ae2d01346f55b2ee9
+cur_hc:e88c0f439837ac1e07a69a49bb4d9cbf54e65e842d61962ad5f6d815deefe539
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 16:54:59  UDP packet from  192.168.9.100:37407  to  192.168.5.3:33443 rejected
+cur_message:0242e7d08b68303dea95527ccc2838cc77c4d8805bc43757dc50a464c79267c0
+cur_hc:5b749cfa3d7f73a05dccdf3a85f968dd8852167ad3ded4e0006ec25dfd280d7e
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 16:55:02  UDP packet from  192.168.9.100:37407  to  192.168.5.3:33444 rejected
+cur_message:4fb9f2ff73d988c76b6b61351d785fbbb385c77a3878ef7a3641fdd06c455d51
+cur_hc:003b6dd509af0bb2ccd6074be842eb5c055def4d61d78ae2d1d72480209fd6b3
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 16:55:05  UDP packet from  192.168.9.100:37407  to  192.168.5.3:33445 rejected
+cur_message:cfb64ae956fc1b468cb3875c45079b8d9f11e61d477b1f898b75d74f17c7bae2
+cur_hc:e8920a445df5677743f647942c728ef587c4e03882a25f807f86b12563d805c0
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 16:55:08  UDP packet from  192.168.9.100:37407  to  192.168.5.3:33446 rejected
+cur_message:
+cur_hc:
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 17:00:08  UDP packet from  192.168.9.100:37660  to  192.168.5.3:33441 rejected
+cur_message:
+cur_hc:cb402d00ccf0473d9
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 17:00:11  UDP packet from  192.168.9.100:37660  to  192.168.5.3:33442 rejected
+cur_message:
+cur_hc:@
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 17:00:14  UDP packet from  192.168.9.100:37660  to  192.168.5.3:33443 rejected
+cur_message:
+cur_hc:
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 17:00:17  UDP packet from  192.168.9.100:37660  to  192.168.5.3:33444 rejected
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:36884  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:45986  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:41632  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:35514  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:37482  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:51030  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:37584  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:41298  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:50609  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:39867  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:45696  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:33154  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:53258  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:37391  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:54465  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:55599  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:46146  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:52384  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:50501  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:51149  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:40749  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:53024  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:41552  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:39593  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:36716  to  127.0.0.1:53  accept by HASH CHAIN
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:36716  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:60375  to  127.0.0.1:53  accept by HASH CHAIN
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:60375  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:58371  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:45826  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:58825  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:45079  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:52102  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:46223  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:60370  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:35602  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:33251  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:36816  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:38054  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:43857  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:52145  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:19  UDP packet from  127.0.0.1:56122  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:00:20  UDP packet from  192.168.9.100:37660  to  192.168.5.3:33445  accept by HASH CHAIN
+cur_message:4f3ed7f828d671a5c5d117134e9d4082654a3a4dd3e68e4d66945021b2d4ee6c
+cur_hc:f60ba83cded0dd4fffe7974018cea2690a00ceaa583241513948ace75171344b
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 17:07:56  UDP packet from  192.168.9.100:37969  to  192.168.5.3:33441  accept by HASH CHAIN
+cur_message:5fcab0b010bdd21b76f585a26cc4df4fe5004e890e4bef79dba9f56b41efb258
+cur_hc:3244e1a275715bfc89fd0f010c3aaf0806b7e21172521462257e365907a519fd
+pre_hc:f60ba83cded0dd4fffe7974018cea2690a00ceaa583241513948ace75171344b
+2023/04/04 17:07:57  UDP packet from  192.168.9.100:37969  to  192.168.5.3:33442  accept by HASH CHAIN
+cur_message:1287df55a2cf9d90c7d44f54fab02ef69cce6368cb0fd6ecc2f96d6b4b925bfd
+cur_hc:80d5f165c68690026a6e063c5e9c4c34ce59d547f4bfa3f659059ca37ddf821c
+pre_hc:3244e1a275715bfc89fd0f010c3aaf0806b7e21172521462257e365907a519fd
+2023/04/04 17:07:57  UDP packet from  192.168.9.100:37969  to  192.168.5.3:33443  accept by HASH CHAIN
+cur_message:ebe6c173cb7e2b57f064a81b4769c9bcfb80f614d554901c51eed6bbdf40bfcf
+cur_hc:e69e6d97972d426b909088009163a30fb56d448634bc345326016cb6cd933468
+pre_hc:80d5f165c68690026a6e063c5e9c4c34ce59d547f4bfa3f659059ca37ddf821c
+2023/04/04 17:07:57  UDP packet from  192.168.9.100:37969  to  192.168.5.3:33444  accept by HASH CHAIN
+cur_message:ddffc74720c997f50e70794d83083c6634d0910b427a2be4b741f203579f6a1e
+cur_hc:f88d5dc2fbf0b0bb17e704a41ca5641b6a7b9ec77f09eb8cd04491de3146e5ca
+pre_hc:e69e6d97972d426b909088009163a30fb56d448634bc345326016cb6cd933468
+2023/04/04 17:07:57  UDP packet from  192.168.9.100:37969  to  192.168.5.3:33445  accept by HASH CHAIN
+cur_message:de18007a225769c96507761ba4bf8525462fb938defd07cfc2aa747e33f1fe46
+cur_hc:47d667883674b98d01e47dfa33fe64281cfb20f0ee17cdb9dd95a98d3a752504
+pre_hc:f88d5dc2fbf0b0bb17e704a41ca5641b6a7b9ec77f09eb8cd04491de3146e5ca
+2023/04/04 17:07:57  UDP packet from  192.168.9.100:37969  to  192.168.5.3:33446  accept by HASH CHAIN
+cur_message:f7bc3b44a740b170c8758cd235be344094f4a2fcc611414ee23f1f86ffef2f02
+cur_hc:be2a08a94069d9607306244abfcec442af38ce4c4a6b3a1152300f6e8c076fa7
+pre_hc:47d667883674b98d01e47dfa33fe64281cfb20f0ee17cdb9dd95a98d3a752504
+2023/04/04 17:07:57  UDP packet from  192.168.9.100:37969  to  192.168.5.3:33447  accept by HASH CHAIN
+cur_message:e912198ca0b07977dba56fdfd50daa5a11dce8996a072bfc1513005f36fe81d7
+cur_hc:d2fe8755ea29eb91893e32fbcd3aa670809918f58741846dd6ba009e81361a76
+pre_hc:be2a08a94069d9607306244abfcec442af38ce4c4a6b3a1152300f6e8c076fa7
+2023/04/04 17:07:57  UDP packet from  192.168.9.100:37969  to  192.168.5.3:33448  accept by HASH CHAIN
+cur_message:ac8196d76b48ca95fd4dd8bd74848c8b3bcd82bc35870fb1921305e5300c708a
+cur_hc:d7120f96701555f533d49cbfce72ee4e13940c22c5ddce1fb10a55b211ead853
+pre_hc:d2fe8755ea29eb91893e32fbcd3aa670809918f58741846dd6ba009e81361a76
+2023/04/04 17:07:57  UDP packet from  192.168.9.100:37969  to  192.168.5.3:33449  accept by HASH CHAIN
+cur_message:7e55f03b75fba4564de8290300c387bb0a3f97fecebef5e38e9f504ec4f6b363
+cur_hc:9a7440b83c8a7540d4101d1dcdb0a38d471911cfb78bae33bc5f2149457ff791
+pre_hc:d7120f96701555f533d49cbfce72ee4e13940c22c5ddce1fb10a55b211ead853
+2023/04/04 17:07:57  UDP packet from  192.168.9.100:37969  to  192.168.5.3:33450  accept by HASH CHAIN
+cur_message:66123ae4de028c4e6e5c05c989ef836dcd1e4da27467bad4a24fe5f7b3aab730
+cur_hc:c1815446e23e3ed40f4fcc517de2d0fc75d1064f2098f3655a690b0eb1c2361a
+pre_hc:9a7440b83c8a7540d4101d1dcdb0a38d471911cfb78bae33bc5f2149457ff791
+2023/04/04 17:07:57  UDP packet from  192.168.9.100:37969  to  192.168.5.3:33451  accept by HASH CHAIN
+cur_message:fd208ee50609e7e1a3b184cc27db3d41d3eaa91df7a4f82612dc8518891a0a75
+cur_hc:9cb6fe22cb8343653c2bdb1d036f409887f7632afb31459de6a2c408defcb4db
+pre_hc:c1815446e23e3ed40f4fcc517de2d0fc75d1064f2098f3655a690b0eb1c2361a
+2023/04/04 17:07:57  UDP packet from  192.168.9.100:37969  to  192.168.5.3:33452  accept by HASH CHAIN
+cur_message:fb31dcb7967330694d00f639cae330810204304d221cdd5a2d1234a28a4c3874
+cur_hc:8a6678aab09745a8dac49b0d9a6227871c1e9139cc8b3df256fa110e86b25313
+pre_hc:9cb6fe22cb8343653c2bdb1d036f409887f7632afb31459de6a2c408defcb4db
+2023/04/04 17:07:57  UDP packet from  192.168.9.100:37969  to  192.168.5.3:33453  accept by HASH CHAIN
+cur_message:a71d7550e977ea5dc9fc8477213618ff1c67bcffa922b31d3323643b76c61c89
+cur_hc:365cc172f925fc979f29117b073596c02494c2f737582260845928b65935f2d4
+pre_hc:8a6678aab09745a8dac49b0d9a6227871c1e9139cc8b3df256fa110e86b25313
+2023/04/04 17:07:57  UDP packet from  192.168.9.100:37969  to  192.168.5.3:33454  accept by HASH CHAIN
+cur_message:869fbeec8baa260fb0dce220d462d0618e8bf74d865f7a2efce78334dbbcc655
+cur_hc:9d88dbaa6b44b3f248d1c23e1a12281438ec46754550f58a82fe02987323d461
+pre_hc:365cc172f925fc979f29117b073596c02494c2f737582260845928b65935f2d4
+2023/04/04 17:07:57  UDP packet from  192.168.9.100:37969  to  192.168.5.3:33455  accept by HASH CHAIN
+2023/04/04 17:11:09  UDP packet from  127.0.0.1:57155  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:11:09  UDP packet from  127.0.0.1:49633  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:11:09  UDP packet from  127.0.0.1:47154  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:11:09  UDP packet from  127.0.0.1:46030  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:11:12  UDP packet from  192.168.9.100:38157  to  192.168.5.3:33441  accept by HASH CHAIN
+2023/04/04 17:11:12  UDP packet from  192.168.9.100:38157  to  192.168.5.3:33442  accept by HASH CHAIN
+2023/04/04 17:11:12  UDP packet from  192.168.9.100:38157  to  192.168.5.3:33443  accept by HASH CHAIN
+2023/04/04 17:11:12  UDP packet from  192.168.9.100:38157  to  192.168.5.3:33444  accept by HASH CHAIN
+2023/04/04 17:11:12  UDP packet from  192.168.9.100:38157  to  192.168.5.3:33445  accept by HASH CHAIN
+2023/04/04 17:11:12  UDP packet from  192.168.9.100:38157  to  192.168.5.3:33446  accept by HASH CHAIN
+2023/04/04 17:11:12  UDP packet from  192.168.9.100:38157  to  192.168.5.3:33447  accept by HASH CHAIN
+2023/04/04 17:11:12  UDP packet from  192.168.9.100:38157  to  192.168.5.3:33448  accept by HASH CHAIN
+2023/04/04 17:11:12  UDP packet from  192.168.9.100:38157  to  192.168.5.3:33449  accept by HASH CHAIN
+2023/04/04 17:11:13  UDP packet from  192.168.9.100:38157  to  192.168.5.3:33450  accept by HASH CHAIN
+2023/04/04 17:11:13  UDP packet from  192.168.9.100:38157  to  192.168.5.3:33451  accept by HASH CHAIN
+2023/04/04 17:11:13  UDP packet from  192.168.9.100:38157  to  192.168.5.3:33452  accept by HASH CHAIN
+2023/04/04 17:11:13  UDP packet from  192.168.9.100:38157  to  192.168.5.3:33453  accept by HASH CHAIN
+2023/04/04 17:11:13  UDP packet from  192.168.9.100:38157  to  192.168.5.3:33454  accept by HASH CHAIN
+2023/04/04 17:11:13  UDP packet from  192.168.9.100:38157  to  192.168.5.3:33455  accept by HASH CHAIN
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:57771  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:36161  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:39504  to  127.0.0.1:53  accept by PUB KEY
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:39504  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:38256  to  127.0.0.1:53  accept by PUB KEY
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:38256  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:59937  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:43768  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:37991  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:38260  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:34260  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:38414  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:44756  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:36203  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:41477  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:40288  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:47748  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:49621  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:40339  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:37606  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:44572  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:54132  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:58956  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:45084  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:59096  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:41271  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:38082  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:59148  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:38093  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:45543  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:56371  to  127.0.0.1:53  accept by PUB KEY
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:56371  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:54859  to  127.0.0.1:53  accept by PUB KEY
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:54859  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:52801  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:59953  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:44753  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:36777  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:49590  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:56544  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:44637  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:38664  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:45022  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:38  UDP packet from  127.0.0.1:46612  to  127.0.0.1:53  rejected by rule 2 
+2023/04/04 17:28:39  UDP packet from  192.168.9.100:35482  to  192.168.5.3:33441 rejected
+2023/04/04 17:28:42  UDP packet from  192.168.9.100:35482  to  192.168.5.3:33442 rejected
+2023/04/04 17:28:45  UDP packet from  192.168.9.100:35482  to  192.168.5.3:33443 rejected
+2023/04/04 17:28:48  UDP packet from  192.168.9.100:35482  to  192.168.5.3:33444 rejected
+2023/04/04 17:28:51  UDP packet from  192.168.9.100:35482  to  192.168.5.3:33445 rejected
+2023/04/04 17:29:54  UDP packet from  192.168.9.100:35720  to  192.168.5.3:33441 rejected
+2023/04/04 17:29:57  UDP packet from  192.168.9.100:35720  to  192.168.5.3:33442 rejected
+2023/04/04 17:29:57  UDP packet from  192.168.1.2:5353  to  224.0.0.251:5353  rejected by rule 2 
+2023/04/04 17:29:57  UDP packet from  192.168.1.2:5353  to  224.0.0.251:5353  rejected by rule 2 
+2023/04/04 17:29:57  UDP packet from  192.168.0.3:5353  to  224.0.0.251:5353  rejected by rule 2 
+2023/04/04 17:29:57  UDP packet from  192.168.0.3:5353  to  224.0.0.251:5353  rejected by rule 2 
+2023/04/04 17:30:00  UDP packet from  192.168.9.100:35720  to  192.168.5.3:33443 rejected
+2023/04/04 17:30:03  UDP packet from  192.168.9.100:35720  to  192.168.5.3:33444 rejected
+2023/04/04 17:31:19  UDP packet from  192.168.9.100:35857  to  192.168.5.3:33438 rejected
+2023/04/04 17:31:22  UDP packet from  192.168.9.100:35857  to  192.168.5.3:33439 rejected
+2023/04/04 17:31:25  UDP packet from  192.168.9.100:35857  to  192.168.5.3:33440 rejected
+2023/04/04 17:31:28  UDP packet from  192.168.9.100:35857  to  192.168.5.3:33441 rejected
+2023/04/04 17:31:53  UDP packet from  192.168.9.100:35928  to  192.168.5.3:33441  accept by TRUST IP
+2023/04/04 17:31:53  UDP packet from  192.168.9.100:35928  to  192.168.5.3:33442  accept by TRUST IP
+2023/04/04 17:31:53  UDP packet from  192.168.9.100:35928  to  192.168.5.3:33443  accept by TRUST IP
+2023/04/04 17:31:53  UDP packet from  192.168.9.100:35928  to  192.168.5.3:33444  accept by TRUST IP
+2023/04/04 17:31:53  UDP packet from  192.168.9.100:35928  to  192.168.5.3:33445  accept by TRUST IP
+2023/04/04 17:31:54  UDP packet from  192.168.9.100:35928  to  192.168.5.3:33446  accept by TRUST IP
+2023/04/04 17:31:54  UDP packet from  192.168.9.100:35928  to  192.168.5.3:33447  accept by TRUST IP
+2023/04/04 17:31:54  UDP packet from  192.168.9.100:35928  to  192.168.5.3:33448  accept by TRUST IP
+2023/04/04 17:31:54  UDP packet from  192.168.9.100:35928  to  192.168.5.3:33449  accept by TRUST IP
+2023/04/04 17:31:54  UDP packet from  192.168.9.100:35928  to  192.168.5.3:33450  accept by TRUST IP
+2023/04/04 17:31:54  UDP packet from  192.168.9.100:35928  to  192.168.5.3:33451  accept by TRUST IP
+2023/04/04 17:31:54  UDP packet from  192.168.9.100:35928  to  192.168.5.3:33452  accept by TRUST IP
+2023/04/04 17:31:54  UDP packet from  192.168.9.100:35928  to  192.168.5.3:33453  accept by TRUST IP
+2023/04/04 17:31:54  UDP packet from  192.168.9.100:35928  to  192.168.5.3:33454  accept by TRUST IP
+2023/04/04 17:31:54  UDP packet from  192.168.9.100:35928  to  192.168.5.3:33455  accept by TRUST IP
+2023/04/04 17:32:57  UDP packet from  192.168.9.100:36033  to  192.168.5.3:33441 rejected
+2023/04/04 17:33:00  UDP packet from  192.168.9.100:36033  to  192.168.5.3:33442 rejected
+2023/04/04 17:33:03  UDP packet from  192.168.9.100:36033  to  192.168.5.3:33443 rejected
+2023/04/04 17:34:59  UDP packet from  127.0.0.1:38334  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:34:59  UDP packet from  127.0.0.1:43432  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:34:59  UDP packet from  127.0.0.1:40129  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:34:59  UDP packet from  127.0.0.1:33412  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:34:59  UDP packet from  192.168.9.100:36200  to  192.168.5.3:33441 rejected
+2023/04/04 17:35:02  UDP packet from  192.168.9.100:36200  to  192.168.5.3:33442 rejected
+2023/04/04 17:35:05  UDP packet from  192.168.9.100:36200  to  192.168.5.3:33443 rejected
+cur_message:6952a70d2b6d6534f2a570b1e26ac14bd04fa3b8f6a6648533e34e3cd9920770
+cur_hc:a4f0d6830f096cd5519bf17a61066599d3a8f5838e5a7eaaac65b8d5d92b654c
+pre_hc:016e98a6fd1ff7546f7bae80329ca3c655ae299509ab918b11b19381fd821312
+2023/04/04 17:36:06  UDP packet from  192.168.9.100:36355  to  192.168.5.3:33441 rejected
+cur_message:60e9a6eea78096116d15d0bb1027c1f07589a3ed98854d693fc8cb985d7e12e5
+cur_hc:adc42207630ef779aab4986c6372cf5eaef7b259a2676e1866b08617775e21e4
+pre_hc:016e98a6fd1ff7546f7bae80329ca3c655ae299509ab918b11b19381fd821312
+2023/04/04 17:36:09  UDP packet from  192.168.9.100:36355  to  192.168.5.3:33442 rejected
+cur_message:88c24e2403ca60104b6f7f3039e85524a70ce4a86f67319c0c6c9c320480707c
+cur_hc:a7ccb79f6cfd63aed9728902ab7f8af044f83b69f7cd0954915f40078dc78916
+pre_hc:016e98a6fd1ff7546f7bae80329ca3c655ae299509ab918b11b19381fd821312
+2023/04/04 17:36:12  UDP packet from  192.168.9.100:36355  to  192.168.5.3:33443 rejected
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:36204  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:60903  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:44862  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:50556  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:60712  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:36170  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:36387  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:49099  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:34096  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:35069  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:44296  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:37180  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:54089  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:50895  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:59318  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:46427  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:55768  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:35242  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:43200  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:36018  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:47390  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:54378  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:39249  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:58595  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:52754  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:43992  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:47397  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:57616  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:48338  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:41279  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:52506  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:42919  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:36774  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:55887  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:38695  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:51517  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:52333  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:35136  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:50224  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:58251  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:36244  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:33108  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:56379  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:12  UDP packet from  127.0.0.1:51030  to  127.0.0.1:53  rejected by rule 3 
+cur_message:57d77c4ef69933f277c934fbaefa74e42be2876ecb45f3c222f11ab68284d4b6
+cur_hc:e81d41485fffbe2b21e43ff6029d2bd85c5c350860eb642fe0a10e5c673f4e66
+pre_hc:016e98a6fd1ff7546f7bae80329ca3c655ae299509ab918b11b19381fd821312
+2023/04/04 17:36:15  UDP packet from  192.168.9.100:36355  to  192.168.5.3:33444 rejected
+2023/04/04 17:36:16  UDP packet from  127.0.0.1:44756  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:16  UDP packet from  127.0.0.1:42326  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:16  UDP packet from  127.0.0.1:48862  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:36:16  UDP packet from  127.0.0.1:51415  to  127.0.0.1:53  rejected by rule 3 
+cur_message:6553d823e357738235bf3b73c97b485610ab23ea65dc6d9591710d44da335c1d
+cur_hc:cfd4a4d6c4a0cb606d84e71e60953ea492d9a7b95b5592730fdead9f1a84c8c6
+pre_hc:016e98a6fd1ff7546f7bae80329ca3c655ae299509ab918b11b19381fd821312
+2023/04/04 17:36:18  UDP packet from  192.168.9.100:36355  to  192.168.5.3:33445 rejected
+cur_message:b9f4aaa63f79924e5aacc1b19160c78db566fdb8bfec8a4ca4d4dfd4ea77e5c0
+cur_hc:1c1d619e4b39dd5a0744876da5d92bed817d526e4bed4742a18ba69352e16aa5
+pre_hc:016e98a6fd1ff7546f7bae80329ca3c655ae299509ab918b11b19381fd821312
+2023/04/04 17:36:21  UDP packet from  192.168.9.100:36355  to  192.168.5.3:33446 rejected
+2023/04/04 17:39:26  UDP packet from  127.0.0.1:44011  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:26  UDP packet from  127.0.0.1:58005  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:26  UDP packet from  127.0.0.1:54346  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:26  UDP packet from  127.0.0.1:60581  to  127.0.0.1:53  rejected by rule 3 
+cur_message:a8b648cfcf1cebf33d907b2bda8905467e8d87b832ce0c883ffe3ebfc88cc5af
+cur_hc:788cb3338f8562526e084230dbbadbe705f9dc10a77ffd8f005f89c553e94dff
+pre_hc:6510843ae574f77063c23ea10c79291b37320d3b96235be101d4ba4026a4f0f9
+2023/04/04 17:39:37  UDP packet from  192.168.9.100:36579  to  192.168.5.3:33441  accept by HASH CHAIN
+cur_message:0820cf77dca10501692a248aef1d0bf24920ef8dc13668a9a120369985e27698
+cur_hc:ba317ae14a24feeab30573c48840e6703ac8f3dae66c6d81d480d4f1763180ce
+pre_hc:788cb3338f8562526e084230dbbadbe705f9dc10a77ffd8f005f89c553e94dff
+2023/04/04 17:39:37  UDP packet from  192.168.9.100:36579  to  192.168.5.3:33442  accept by HASH CHAIN
+cur_message:3684746e5a0dc8b09121e8f96f4792308ccd0185aa50f41b9d8e4cd5839b7f4e
+cur_hc:5714f1f88d458acfba84c216c1d8182aa950396d7996d56e82cd4c16decb8d99
+pre_hc:ba317ae14a24feeab30573c48840e6703ac8f3dae66c6d81d480d4f1763180ce
+2023/04/04 17:39:37  UDP packet from  192.168.9.100:36579  to  192.168.5.3:33443  accept by HASH CHAIN
+cur_message:995f5c95e065affc13e45c64aad2d8136f912067a1bf3873e651e2bd5a4f6fb8
+cur_hc:b45f3a8f39730ab573c56b75cdf4b135af957803af3b849ee6b34c6b48ba01a1
+pre_hc:5714f1f88d458acfba84c216c1d8182aa950396d7996d56e82cd4c16decb8d99
+2023/04/04 17:39:38  UDP packet from  192.168.9.100:36579  to  192.168.5.3:33444  accept by HASH CHAIN
+cur_message:f3cb5256c0360b03992cda16fd58d081c64b5ee80513159afe284ca560e41073
+cur_hc:2d3e54fd9f3adfa7101c041c2d1b060f506bae1b85f5797809033b2d21726d2f
+pre_hc:b45f3a8f39730ab573c56b75cdf4b135af957803af3b849ee6b34c6b48ba01a1
+2023/04/04 17:39:38  UDP packet from  192.168.9.100:36579  to  192.168.5.3:33445  accept by HASH CHAIN
+cur_message:d404b37006addd206c7b4d86441ca374c6c9ec48581e45e9e7f54e89b546c514
+cur_hc:164c9baabb9839ca7aac3482fa9101aa86baf21a5704769b68d690951cf13dad
+pre_hc:2d3e54fd9f3adfa7101c041c2d1b060f506bae1b85f5797809033b2d21726d2f
+2023/04/04 17:39:38  UDP packet from  192.168.9.100:36579  to  192.168.5.3:33446  accept by HASH CHAIN
+cur_message:e3d71270bc37135f1bc3da05586f4aa1dc40a9a1d940e08843de1d8b35082eb0
+cur_hc:47c797ca1997bf6ae60eaf909f8c310ad82a52948f8b54b789543fdb5572b4ec
+pre_hc:164c9baabb9839ca7aac3482fa9101aa86baf21a5704769b68d690951cf13dad
+2023/04/04 17:39:38  UDP packet from  192.168.9.100:36579  to  192.168.5.3:33447  accept by HASH CHAIN
+cur_message:d4b5fb5937727343b6234018bc9efb67575f6d60ee674bc4cb052f55fa458808
+cur_hc:936e22bbbdcc073676512712bf6cf3901253c6d1c6b026e3fb3be4892ed2b377
+pre_hc:47c797ca1997bf6ae60eaf909f8c310ad82a52948f8b54b789543fdb5572b4ec
+2023/04/04 17:39:38  UDP packet from  192.168.9.100:36579  to  192.168.5.3:33448  accept by HASH CHAIN
+cur_message:8c4b70e3229c1877ce739c1fe22115a83d295d7f34ec763ed9dc08b3950bf96d
+cur_hc:2fc82b735697b6d06487696236769f1deacece9174f313bbc76863fb671c617e
+pre_hc:936e22bbbdcc073676512712bf6cf3901253c6d1c6b026e3fb3be4892ed2b377
+2023/04/04 17:39:38  UDP packet from  192.168.9.100:36579  to  192.168.5.3:33449  accept by HASH CHAIN
+cur_message:b1123992f8ecaae9e43bd0ed340e70a1bf5f5c925fc782f6cb6e45589271c026
+cur_hc:aab805e4df06da6b811719210ea941be027d532e0b3d3a64bb57e947975b2361
+pre_hc:2fc82b735697b6d06487696236769f1deacece9174f313bbc76863fb671c617e
+2023/04/04 17:39:38  UDP packet from  192.168.9.100:36579  to  192.168.5.3:33450  accept by HASH CHAIN
+cur_message:8619e039e08e75912a16bd1e68697c535cba6771befdf3658a1c0b67f7328120
+cur_hc:b47554cd528e0e876d00142a92ba5e8af15338fcf0c81452074d688e7bf6f0f9
+pre_hc:aab805e4df06da6b811719210ea941be027d532e0b3d3a64bb57e947975b2361
+2023/04/04 17:39:38  UDP packet from  192.168.9.100:36579  to  192.168.5.3:33451  accept by HASH CHAIN
+cur_message:9466b394d0a02e3c7a13d003380ab8f77ae8ce24e79ce3f102df54ba403cd46e
+cur_hc:dcb3033231151e7bf75a836bd28d0e78cac007e7cbe2140f6d0cd434bcfd8e51
+pre_hc:b47554cd528e0e876d00142a92ba5e8af15338fcf0c81452074d688e7bf6f0f9
+2023/04/04 17:39:38  UDP packet from  192.168.9.100:36579  to  192.168.5.3:33452  accept by HASH CHAIN
+cur_message:4850ab28c0538ac3ee4f84e26b56c8b8ef354afb8abbe9fcf632205e1d695801
+cur_hc:0b750aaaa5a386880cc280043e012646f0bd7451d8b94153799857629c8b5aae
+pre_hc:dcb3033231151e7bf75a836bd28d0e78cac007e7cbe2140f6d0cd434bcfd8e51
+2023/04/04 17:39:38  UDP packet from  192.168.9.100:36579  to  192.168.5.3:33453  accept by HASH CHAIN
+cur_message:9bc6a10e861c340d3a3facac167db00edd4ea43139eb0fbbf7cc4cc23c5b165d
+cur_hc:bb90f63870bb2b233433b372f084882387f4f81d943f30fc5903e9cb2ffba9fa
+pre_hc:0b750aaaa5a386880cc280043e012646f0bd7451d8b94153799857629c8b5aae
+2023/04/04 17:39:38  UDP packet from  192.168.9.100:36579  to  192.168.5.3:33454  accept by HASH CHAIN
+cur_message:f24d8778152546486ccfa7b2669b5d12eb4498afa360a32e3342a9b3b3ab14ef
+cur_hc:e2f5f63057dc512d069d32602e2fec9fc3425a7b6b13585cd0dcb42f6e641a72
+pre_hc:bb90f63870bb2b233433b372f084882387f4f81d943f30fc5903e9cb2ffba9fa
+2023/04/04 17:39:38  UDP packet from  192.168.9.100:36579  to  192.168.5.3:33455  accept by HASH CHAIN
+2023/04/04 17:39:41  UDP packet from  192.168.0.3:5353  to  224.0.0.251:5353  rejected by rule 3 
+2023/04/04 17:39:41  UDP packet from  192.168.0.3:5353  to  224.0.0.251:5353  rejected by rule 3 
+2023/04/04 17:39:41  UDP packet from  127.0.0.1:51951  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:41  UDP packet from  127.0.0.1:34123  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:41  UDP packet from  127.0.0.1:41882  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:41  UDP packet from  127.0.0.1:56362  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:52429  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:33040  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:59834  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:45948  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:56152  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:52620  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:41654  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:39260  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:60395  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:51355  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:58414  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:47145  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:60183  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:44877  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:58235  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:54762  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:49976  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:36013  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:35686  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:37926  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:42280  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:49784  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:50889  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:42549  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:55871  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:48293  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:40041  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:39911  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:55577  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:58261  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:33373  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:55291  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:48602  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:38376  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:35788  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:53645  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:33993  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:35890  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:43517  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:39:44  UDP packet from  127.0.0.1:49673  to  127.0.0.1:53  rejected by rule 3 
+cur_message:5538aae18c73bbae82750685eb87d03d3ba3177fd51d8dc1b7d8330a2f15a6f7
+cur_hc:6a0be228fe9f55eea0b9160cc67ed483dbbd2da25e15636dcc287db961ed6f35
+pre_hc:e2f5f63057dc512d069d32602e2fec9fc3425a7b6b13585cd0dcb42f6e641a72
+2023/04/04 17:39:49  UDP packet from  192.168.9.100:36614  to  192.168.5.3:33441  accept by HASH CHAIN
+cur_message:ff4aed261dc3cee601f9cc321c673424fc4f2696b31b27aca9688e858fdb23ac
+cur_hc:1146cf08e709730bf9fd5a0391956fc2c561f01ad2784b1536f0dac6c0d434f4
+pre_hc:6a0be228fe9f55eea0b9160cc67ed483dbbd2da25e15636dcc287db961ed6f35
+2023/04/04 17:39:49  UDP packet from  192.168.9.100:36614  to  192.168.5.3:33442  accept by HASH CHAIN
+cur_message:03e538c9f6cf2c3ac73ac909a3623b445ea59599a33087bafe69fe962af4b611
+cur_hc:86972569c7c58df533259423a728b359b435ddc612ee311f481b84d6011439dd
+pre_hc:1146cf08e709730bf9fd5a0391956fc2c561f01ad2784b1536f0dac6c0d434f4
+2023/04/04 17:39:49  UDP packet from  192.168.9.100:36614  to  192.168.5.3:33443  accept by HASH CHAIN
+cur_message:fc2e580dccef0f8382f292678ab94b449b617b53121913ee4c2259dabff25701
+cur_hc:e97337cdef58b87a1cc355f5472cfa7f7a18c00e0193a9a9e1d0005d24f2e392
+pre_hc:86972569c7c58df533259423a728b359b435ddc612ee311f481b84d6011439dd
+2023/04/04 17:39:49  UDP packet from  192.168.9.100:36614  to  192.168.5.3:33444  accept by HASH CHAIN
+cur_message:fcfd6e9deb76c6db1e3e6d107d4a5af811e69efef8ff1f4934cca0e43a1ae911
+cur_hc:3a7c2a071ab6f2533db12e4b34ffa9638d7f7fa3830410809fb8954023563f62
+pre_hc:e97337cdef58b87a1cc355f5472cfa7f7a18c00e0193a9a9e1d0005d24f2e392
+2023/04/04 17:39:49  UDP packet from  192.168.9.100:36614  to  192.168.5.3:33445  accept by HASH CHAIN
+cur_message:a2bd914941afc192c2cdf4623ccedb58fb631fd45c889788341997ef656f5fa6
+cur_hc:7d2c2221dd05326682ea91ad174d11d546a970c9583aced47878d9a82ef37088
+pre_hc:3a7c2a071ab6f2533db12e4b34ffa9638d7f7fa3830410809fb8954023563f62
+2023/04/04 17:39:49  UDP packet from  192.168.9.100:36614  to  192.168.5.3:33446  accept by HASH CHAIN
+cur_message:0a2ece23145673cff5eb2cd40fd0146af1460b829d3d3fb4ff8e5f2ecf915944
+cur_hc:9b532f637707f09d3b8fe4d918aa2c8603fb3756548146392dfd962a07deef87
+pre_hc:7d2c2221dd05326682ea91ad174d11d546a970c9583aced47878d9a82ef37088
+2023/04/04 17:39:49  UDP packet from  192.168.9.100:36614  to  192.168.5.3:33447  accept by HASH CHAIN
+cur_message:f17f0304034d0204065d517abf8453d32a5d499e8e0f785c10ff154041313688
+cur_hc:570dff98d6532d0c689b078db02cf920e5f84c97b69faf35446f531877a14304
+pre_hc:9b532f637707f09d3b8fe4d918aa2c8603fb3756548146392dfd962a07deef87
+2023/04/04 17:39:49  UDP packet from  192.168.9.100:36614  to  192.168.5.3:33448  accept by HASH CHAIN
+cur_message:5ffee4725e67c90db2de6f3c951036fdf21399b42e1467090327d6747be8a116
+cur_hc:ccc501dae39f2ed637eba949c2950e805d9344c0f11ffe720f43ea0a9a0cb483
+pre_hc:570dff98d6532d0c689b078db02cf920e5f84c97b69faf35446f531877a14304
+2023/04/04 17:39:49  UDP packet from  192.168.9.100:36614  to  192.168.5.3:33449  accept by HASH CHAIN
+cur_message:679e40f2b3b30413de083d67d1f12ac530b924589f3346c6f29bf165e5ab6385
+cur_hc:cbeacf384a9b6a1953c1d65f16c00fed02125b8a3dd5ccf54f355c15b26b94eb
+pre_hc:ccc501dae39f2ed637eba949c2950e805d9344c0f11ffe720f43ea0a9a0cb483
+2023/04/04 17:39:49  UDP packet from  192.168.9.100:36614  to  192.168.5.3:33450  accept by HASH CHAIN
+cur_message:bc28041984d143b3b3b598ec3956389c0e76d89e52443c338b35f68583fade50
+cur_hc:8d7b346311c4c4f6160e2b9adf0ec396254a731783396e5d94ca1dd591b176dc
+pre_hc:cbeacf384a9b6a1953c1d65f16c00fed02125b8a3dd5ccf54f355c15b26b94eb
+2023/04/04 17:39:50  UDP packet from  192.168.9.100:36614  to  192.168.5.3:33451  accept by HASH CHAIN
+cur_message:0d8e71c47c30f145b7a4234f3ad28f1dbb59a6a7a4522f8bcb311e77789690fc
+cur_hc:d251c2cc405875ebe77347d2b9f378f2bfc829d9d812c63225faa02a5ed5e788
+pre_hc:8d7b346311c4c4f6160e2b9adf0ec396254a731783396e5d94ca1dd591b176dc
+2023/04/04 17:39:50  UDP packet from  192.168.9.100:36614  to  192.168.5.3:33452  accept by HASH CHAIN
+cur_message:0a62aff868a91064d82938c2610962eec2035501f8b011abaaaac2f8dfd56872
+cur_hc:7d1a53332c2d562e597f811dde327f3fce970d8fba30af5d0d9abd11d18dc768
+pre_hc:d251c2cc405875ebe77347d2b9f378f2bfc829d9d812c63225faa02a5ed5e788
+2023/04/04 17:39:50  UDP packet from  192.168.9.100:36614  to  192.168.5.3:33453  accept by HASH CHAIN
+cur_message:d1cf02b9c91d66a4f8d102aeb7580d7e8bad13d50755812c590134b89b189902
+cur_hc:21c15bbc2ed8ecb5f580d7f0374d1ed6657a6f9332ae8dfcb8fa59f1f4cc9839
+pre_hc:7d1a53332c2d562e597f811dde327f3fce970d8fba30af5d0d9abd11d18dc768
+2023/04/04 17:39:50  UDP packet from  192.168.9.100:36614  to  192.168.5.3:33454  accept by HASH CHAIN
+cur_message:fe52948c30895cc1a24d93fdf523ee55a09a8520e521958201cc75e9684f69e8
+cur_hc:0ee7e5c970b98c6b0ced4d646c66f97e830d8a1fbdcdf614280e197e1605088f
+pre_hc:21c15bbc2ed8ecb5f580d7f0374d1ed6657a6f9332ae8dfcb8fa59f1f4cc9839
+2023/04/04 17:39:50  UDP packet from  192.168.9.100:36614  to  192.168.5.3:33455  accept by HASH CHAIN
+2023/04/04 17:41:36  UDP packet from  192.168.9.100:36722  to  192.168.5.3:33441  accept by HASH CHAIN
+2023/04/04 17:41:36  UDP packet from  192.168.9.100:36722  to  192.168.5.3:33442  accept by HASH CHAIN
+2023/04/04 17:41:36  UDP packet from  192.168.9.100:36722  to  192.168.5.3:33443  accept by HASH CHAIN
+2023/04/04 17:41:36  UDP packet from  192.168.9.100:36722  to  192.168.5.3:33444  accept by HASH CHAIN
+2023/04/04 17:41:36  UDP packet from  192.168.9.100:36722  to  192.168.5.3:33445  accept by HASH CHAIN
+2023/04/04 17:41:36  UDP packet from  192.168.9.100:36722  to  192.168.5.3:33446  accept by HASH CHAIN
+2023/04/04 17:41:36  UDP packet from  192.168.9.100:36722  to  192.168.5.3:33447  accept by HASH CHAIN
+2023/04/04 17:41:36  UDP packet from  192.168.9.100:36722  to  192.168.5.3:33448  accept by HASH CHAIN
+2023/04/04 17:41:36  UDP packet from  192.168.9.100:36722  to  192.168.5.3:33449  accept by HASH CHAIN
+2023/04/04 17:41:36  UDP packet from  192.168.9.100:36722  to  192.168.5.3:33450  accept by HASH CHAIN
+2023/04/04 17:41:36  UDP packet from  192.168.9.100:36722  to  192.168.5.3:33451  accept by HASH CHAIN
+2023/04/04 17:41:36  UDP packet from  192.168.9.100:36722  to  192.168.5.3:33452  accept by HASH CHAIN
+2023/04/04 17:41:36  UDP packet from  192.168.9.100:36722  to  192.168.5.3:33453  accept by HASH CHAIN
+2023/04/04 17:41:36  UDP packet from  192.168.9.100:36722  to  192.168.5.3:33454  accept by HASH CHAIN
+2023/04/04 17:41:37  UDP packet from  192.168.9.100:36722  to  192.168.5.3:33455  accept by HASH CHAIN
+2023/04/04 17:41:39  UDP packet from  127.0.0.1:50527  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:39  UDP packet from  127.0.0.1:33544  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:39  UDP packet from  127.0.0.1:50839  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:39  UDP packet from  127.0.0.1:40269  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:42  UDP packet from  192.168.9.100:36758  to  192.168.5.3:33441  accept by HASH CHAIN
+2023/04/04 17:41:42  UDP packet from  192.168.9.100:36758  to  192.168.5.3:33442  accept by HASH CHAIN
+2023/04/04 17:41:42  UDP packet from  192.168.9.100:36758  to  192.168.5.3:33443  accept by HASH CHAIN
+2023/04/04 17:41:42  UDP packet from  192.168.9.100:36758  to  192.168.5.3:33444  accept by HASH CHAIN
+2023/04/04 17:41:42  UDP packet from  192.168.9.100:36758  to  192.168.5.3:33445  accept by HASH CHAIN
+2023/04/04 17:41:42  UDP packet from  192.168.1.2:5353  to  224.0.0.251:5353  rejected by rule 3 
+2023/04/04 17:41:42  UDP packet from  192.168.1.2:5353  to  224.0.0.251:5353  rejected by rule 3 
+2023/04/04 17:41:42  UDP packet from  192.168.9.100:36758  to  192.168.5.3:33446  accept by HASH CHAIN
+2023/04/04 17:41:42  UDP packet from  192.168.9.100:36758  to  192.168.5.3:33447  accept by HASH CHAIN
+2023/04/04 17:41:42  UDP packet from  192.168.9.100:36758  to  192.168.5.3:33448  accept by HASH CHAIN
+2023/04/04 17:41:42  UDP packet from  192.168.9.100:36758  to  192.168.5.3:33449  accept by HASH CHAIN
+2023/04/04 17:41:42  UDP packet from  192.168.9.100:36758  to  192.168.5.3:33450  accept by HASH CHAIN
+2023/04/04 17:41:42  UDP packet from  192.168.0.3:5353  to  224.0.0.251:5353  rejected by rule 3 
+2023/04/04 17:41:42  UDP packet from  192.168.0.3:5353  to  224.0.0.251:5353  rejected by rule 3 
+2023/04/04 17:41:42  UDP packet from  192.168.9.100:36758  to  192.168.5.3:33451  accept by HASH CHAIN
+2023/04/04 17:41:43  UDP packet from  192.168.9.100:36758  to  192.168.5.3:33452  accept by HASH CHAIN
+2023/04/04 17:41:43  UDP packet from  192.168.9.100:36758  to  192.168.5.3:33453  accept by HASH CHAIN
+2023/04/04 17:41:43  UDP packet from  192.168.9.100:36758  to  192.168.5.3:33454  accept by HASH CHAIN
+2023/04/04 17:41:43  UDP packet from  192.168.9.100:36758  to  192.168.5.3:33455  accept by HASH CHAIN
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:46354  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:33174  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:40674  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:54763  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:45173  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:34591  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:54582  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:50765  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:48120  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:43872  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:56126  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:36758  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:42974  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:40768  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:48385  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:50251  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:55222  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:56596  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:44896  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:35097  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:49328  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:36567  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:60306  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:60385  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:42515  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:34484  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:53248  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:41631  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:58057  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:43674  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:49106  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:36436  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:33630  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:50501  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:58298  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:60289  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:40952  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:47775  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:38519  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:45  UDP packet from  127.0.0.1:47116  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:49  UDP packet from  192.168.9.100:36790  to  192.168.5.3:33441  accept by TRUST IP
+2023/04/04 17:41:49  UDP packet from  192.168.9.100:36790  to  192.168.5.3:33442  accept by TRUST IP
+2023/04/04 17:41:49  UDP packet from  192.168.9.100:36790  to  192.168.5.3:33443  accept by TRUST IP
+2023/04/04 17:41:49  UDP packet from  192.168.9.100:36790  to  192.168.5.3:33444  accept by TRUST IP
+2023/04/04 17:41:49  UDP packet from  192.168.9.100:36790  to  192.168.5.3:33445  accept by TRUST IP
+2023/04/04 17:41:49  UDP packet from  192.168.9.100:36790  to  192.168.5.3:33446  accept by TRUST IP
+2023/04/04 17:41:49  UDP packet from  192.168.9.100:36790  to  192.168.5.3:33447  accept by TRUST IP
+2023/04/04 17:41:49  UDP packet from  192.168.9.100:36790  to  192.168.5.3:33448  accept by TRUST IP
+2023/04/04 17:41:49  UDP packet from  192.168.9.100:36790  to  192.168.5.3:33449  accept by TRUST IP
+2023/04/04 17:41:49  UDP packet from  192.168.9.100:36790  to  192.168.5.3:33450  accept by TRUST IP
+2023/04/04 17:41:49  UDP packet from  192.168.9.100:36790  to  192.168.5.3:33451  accept by TRUST IP
+2023/04/04 17:41:49  UDP packet from  192.168.9.100:36790  to  192.168.5.3:33452  accept by TRUST IP
+2023/04/04 17:41:50  UDP packet from  192.168.9.100:36790  to  192.168.5.3:33453  accept by TRUST IP
+2023/04/04 17:41:50  UDP packet from  192.168.9.100:36790  to  192.168.5.3:33454  accept by TRUST IP
+2023/04/04 17:41:50  UDP packet from  192.168.9.100:36790  to  192.168.5.3:33455  accept by TRUST IP
+2023/04/04 17:41:52  UDP packet from  192.168.9.100:36804  to  192.168.5.3:33441  accept by HASH CHAIN
+2023/04/04 17:41:52  UDP packet from  192.168.9.100:36804  to  192.168.5.3:33442  accept by HASH CHAIN
+2023/04/04 17:41:52  UDP packet from  192.168.9.100:36804  to  192.168.5.3:33443  accept by HASH CHAIN
+2023/04/04 17:41:52  UDP packet from  192.168.9.100:36804  to  192.168.5.3:33444  accept by HASH CHAIN
+2023/04/04 17:41:52  UDP packet from  192.168.9.100:36804  to  192.168.5.3:33445  accept by HASH CHAIN
+2023/04/04 17:41:52  UDP packet from  192.168.9.100:36804  to  192.168.5.3:33446  accept by HASH CHAIN
+2023/04/04 17:41:52  UDP packet from  192.168.9.100:36804  to  192.168.5.3:33447  accept by HASH CHAIN
+2023/04/04 17:41:52  UDP packet from  192.168.9.100:36804  to  192.168.5.3:33448  accept by HASH CHAIN
+2023/04/04 17:41:53  UDP packet from  192.168.9.100:36804  to  192.168.5.3:33449  accept by HASH CHAIN
+2023/04/04 17:41:53  UDP packet from  192.168.9.100:36804  to  192.168.5.3:33450  accept by HASH CHAIN
+2023/04/04 17:41:53  UDP packet from  192.168.9.100:36804  to  192.168.5.3:33451  accept by HASH CHAIN
+2023/04/04 17:41:53  UDP packet from  192.168.9.100:36804  to  192.168.5.3:33452  accept by HASH CHAIN
+2023/04/04 17:41:53  UDP packet from  192.168.9.100:36804  to  192.168.5.3:33453  accept by HASH CHAIN
+2023/04/04 17:41:53  UDP packet from  192.168.9.100:36804  to  192.168.5.3:33454  accept by HASH CHAIN
+2023/04/04 17:41:53  UDP packet from  192.168.9.100:36804  to  192.168.5.3:33455  accept by HASH CHAIN
+2023/04/04 17:41:54  UDP packet from  127.0.0.1:43940  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:54  UDP packet from  127.0.0.1:42849  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:54  UDP packet from  127.0.0.1:46771  to  127.0.0.1:53  rejected by rule 3 
+2023/04/04 17:41:54  UDP packet from  127.0.0.1:59911  to  127.0.0.1:53  rejected by rule 3 

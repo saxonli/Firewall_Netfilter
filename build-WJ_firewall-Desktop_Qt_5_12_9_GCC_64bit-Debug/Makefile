@@ -37,7 +37,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = WJ_firewall1.0.0
-DISTDIR = /home/saxon/桌面/Firewall-Based-on-Netfilter-master/build-WJ_firewall-Desktop_Qt_5_12_9_GCC_64bit-Debug/.tmp/WJ_firewall1.0.0
+DISTDIR = /home/saxon/桌面/Firewal_Netfilter_Reconstruction/build-WJ_firewall-Desktop_Qt_5_12_9_GCC_64bit-Debug/.tmp/WJ_firewall1.0.0
 LINK          = g++
 LFLAGS        = -Wl,-rpath,/opt/Qt5.12.9/5.12.9/gcc_64/lib
 LIBS          = $(SUBLIBS) /usr/local/ssl/lib/libssl.so /usr/local/ssl/lib/libcrypto.so /opt/Qt5.12.9/5.12.9/gcc_64/lib/libQt5Widgets.so /opt/Qt5.12.9/5.12.9/gcc_64/lib/libQt5Gui.so /opt/Qt5.12.9/5.12.9/gcc_64/lib/libQt5Core.so -lGL -lpthread   
@@ -835,10 +835,68 @@ moc_mainwindow.cpp: ../WJ_firewall/mainwindow.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qdir.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qfileinfo.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/qdialog.h \
+		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QCoreApplication \
+		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qcoreapplication.h \
+		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qeventloop.h \
+		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QDebug \
+		/usr/local/ssl/include/openssl/ssl.h \
+		/usr/local/ssl/include/openssl/e_os2.h \
+		/usr/local/ssl/include/openssl/opensslconf.h \
+		/usr/local/ssl/include/openssl/opensslv.h \
+		/usr/local/ssl/include/openssl/comp.h \
+		/usr/local/ssl/include/openssl/crypto.h \
+		/usr/local/ssl/include/openssl/safestack.h \
+		/usr/local/ssl/include/openssl/stack.h \
+		/usr/local/ssl/include/openssl/ossl_typ.h \
+		/usr/local/ssl/include/openssl/cryptoerr.h \
+		/usr/local/ssl/include/openssl/symhacks.h \
+		/usr/local/ssl/include/openssl/ebcdic.h \
+		/usr/local/ssl/include/openssl/comperr.h \
+		/usr/local/ssl/include/openssl/bio.h \
+		/usr/local/ssl/include/openssl/bioerr.h \
+		/usr/local/ssl/include/openssl/x509.h \
+		/usr/local/ssl/include/openssl/buffer.h \
+		/usr/local/ssl/include/openssl/buffererr.h \
+		/usr/local/ssl/include/openssl/evp.h \
+		/usr/local/ssl/include/openssl/evperr.h \
+		/usr/local/ssl/include/openssl/objects.h \
+		/usr/local/ssl/include/openssl/obj_mac.h \
+		/usr/local/ssl/include/openssl/asn1.h \
+		/usr/local/ssl/include/openssl/asn1err.h \
+		/usr/local/ssl/include/openssl/bn.h \
+		/usr/local/ssl/include/openssl/bnerr.h \
+		/usr/local/ssl/include/openssl/objectserr.h \
+		/usr/local/ssl/include/openssl/ec.h \
+		/usr/local/ssl/include/openssl/ecerr.h \
+		/usr/local/ssl/include/openssl/rsa.h \
+		/usr/local/ssl/include/openssl/rsaerr.h \
+		/usr/local/ssl/include/openssl/dsa.h \
+		/usr/local/ssl/include/openssl/dh.h \
+		/usr/local/ssl/include/openssl/dherr.h \
+		/usr/local/ssl/include/openssl/dsaerr.h \
+		/usr/local/ssl/include/openssl/sha.h \
+		/usr/local/ssl/include/openssl/x509err.h \
+		/usr/local/ssl/include/openssl/x509_vfy.h \
+		/usr/local/ssl/include/openssl/lhash.h \
+		/usr/local/ssl/include/openssl/pkcs7.h \
+		/usr/local/ssl/include/openssl/pkcs7err.h \
+		/usr/local/ssl/include/openssl/pem.h \
+		/usr/local/ssl/include/openssl/pemerr.h \
+		/usr/local/ssl/include/openssl/hmac.h \
+		/usr/local/ssl/include/openssl/async.h \
+		/usr/local/ssl/include/openssl/asyncerr.h \
+		/usr/local/ssl/include/openssl/ct.h \
+		/usr/local/ssl/include/openssl/cterr.h \
+		/usr/local/ssl/include/openssl/sslerr.h \
+		/usr/local/ssl/include/openssl/ssl2.h \
+		/usr/local/ssl/include/openssl/ssl3.h \
+		/usr/local/ssl/include/openssl/tls1.h \
+		/usr/local/ssl/include/openssl/dtls1.h \
+		/usr/local/ssl/include/openssl/srtp.h \
+		/usr/local/ssl/include/openssl/err.h \
 		../WJ_firewall/common.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/QButtonGroup \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/qbuttongroup.h \
-		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QDebug \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/QDesktopWidget \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/qdesktopwidget.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QDir \
@@ -890,7 +948,7 @@ moc_mainwindow.cpp: ../WJ_firewall/mainwindow.h \
 		../WJ_firewall/ruledialog_m.h \
 		moc_predefs.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/bin/moc
-	/opt/Qt5.12.9/5.12.9/gcc_64/bin/moc $(DEFINES) --include /home/saxon/桌面/Firewall-Based-on-Netfilter-master/build-WJ_firewall-Desktop_Qt_5_12_9_GCC_64bit-Debug/moc_predefs.h -I/opt/Qt5.12.9/5.12.9/gcc_64/mkspecs/linux-g++ -I/home/saxon/桌面/Firewall-Based-on-Netfilter-master/WJ_firewall -I/usr/local/ssl/include -I/opt/Qt5.12.9/5.12.9/gcc_64/include -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtGui -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore -I. -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include ../WJ_firewall/mainwindow.h -o moc_mainwindow.cpp
+	/opt/Qt5.12.9/5.12.9/gcc_64/bin/moc $(DEFINES) --include /home/saxon/桌面/Firewal_Netfilter_Reconstruction/build-WJ_firewall-Desktop_Qt_5_12_9_GCC_64bit-Debug/moc_predefs.h -I/opt/Qt5.12.9/5.12.9/gcc_64/mkspecs/linux-g++ -I/home/saxon/桌面/Firewal_Netfilter_Reconstruction/WJ_firewall -I/usr/local/ssl/include -I/opt/Qt5.12.9/5.12.9/gcc_64/include -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtGui -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore -I. -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include ../WJ_firewall/mainwindow.h -o moc_mainwindow.cpp
 
 moc_messagedialog.cpp: ../WJ_firewall/messagedialog.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/QDialog \
@@ -999,7 +1057,7 @@ moc_messagedialog.cpp: ../WJ_firewall/messagedialog.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtGui/qtouchdevice.h \
 		moc_predefs.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/bin/moc
-	/opt/Qt5.12.9/5.12.9/gcc_64/bin/moc $(DEFINES) --include /home/saxon/桌面/Firewall-Based-on-Netfilter-master/build-WJ_firewall-Desktop_Qt_5_12_9_GCC_64bit-Debug/moc_predefs.h -I/opt/Qt5.12.9/5.12.9/gcc_64/mkspecs/linux-g++ -I/home/saxon/桌面/Firewall-Based-on-Netfilter-master/WJ_firewall -I/usr/local/ssl/include -I/opt/Qt5.12.9/5.12.9/gcc_64/include -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtGui -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore -I. -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include ../WJ_firewall/messagedialog.h -o moc_messagedialog.cpp
+	/opt/Qt5.12.9/5.12.9/gcc_64/bin/moc $(DEFINES) --include /home/saxon/桌面/Firewal_Netfilter_Reconstruction/build-WJ_firewall-Desktop_Qt_5_12_9_GCC_64bit-Debug/moc_predefs.h -I/opt/Qt5.12.9/5.12.9/gcc_64/mkspecs/linux-g++ -I/home/saxon/桌面/Firewal_Netfilter_Reconstruction/WJ_firewall -I/usr/local/ssl/include -I/opt/Qt5.12.9/5.12.9/gcc_64/include -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtGui -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore -I. -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include ../WJ_firewall/messagedialog.h -o moc_messagedialog.cpp
 
 moc_ruledialog.cpp: ../WJ_firewall/ruledialog.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/QDialog \
@@ -1159,7 +1217,7 @@ moc_ruledialog.cpp: ../WJ_firewall/ruledialog.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QVariant \
 		moc_predefs.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/bin/moc
-	/opt/Qt5.12.9/5.12.9/gcc_64/bin/moc $(DEFINES) --include /home/saxon/桌面/Firewall-Based-on-Netfilter-master/build-WJ_firewall-Desktop_Qt_5_12_9_GCC_64bit-Debug/moc_predefs.h -I/opt/Qt5.12.9/5.12.9/gcc_64/mkspecs/linux-g++ -I/home/saxon/桌面/Firewall-Based-on-Netfilter-master/WJ_firewall -I/usr/local/ssl/include -I/opt/Qt5.12.9/5.12.9/gcc_64/include -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtGui -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore -I. -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include ../WJ_firewall/ruledialog.h -o moc_ruledialog.cpp
+	/opt/Qt5.12.9/5.12.9/gcc_64/bin/moc $(DEFINES) --include /home/saxon/桌面/Firewal_Netfilter_Reconstruction/build-WJ_firewall-Desktop_Qt_5_12_9_GCC_64bit-Debug/moc_predefs.h -I/opt/Qt5.12.9/5.12.9/gcc_64/mkspecs/linux-g++ -I/home/saxon/桌面/Firewal_Netfilter_Reconstruction/WJ_firewall -I/usr/local/ssl/include -I/opt/Qt5.12.9/5.12.9/gcc_64/include -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtGui -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore -I. -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include ../WJ_firewall/ruledialog.h -o moc_ruledialog.cpp
 
 moc_ruledialog_m.cpp: ../WJ_firewall/ruledialog_m.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/QDialog \
@@ -1319,7 +1377,7 @@ moc_ruledialog_m.cpp: ../WJ_firewall/ruledialog_m.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QVariant \
 		moc_predefs.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/bin/moc
-	/opt/Qt5.12.9/5.12.9/gcc_64/bin/moc $(DEFINES) --include /home/saxon/桌面/Firewall-Based-on-Netfilter-master/build-WJ_firewall-Desktop_Qt_5_12_9_GCC_64bit-Debug/moc_predefs.h -I/opt/Qt5.12.9/5.12.9/gcc_64/mkspecs/linux-g++ -I/home/saxon/桌面/Firewall-Based-on-Netfilter-master/WJ_firewall -I/usr/local/ssl/include -I/opt/Qt5.12.9/5.12.9/gcc_64/include -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtGui -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore -I. -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include ../WJ_firewall/ruledialog_m.h -o moc_ruledialog_m.cpp
+	/opt/Qt5.12.9/5.12.9/gcc_64/bin/moc $(DEFINES) --include /home/saxon/桌面/Firewal_Netfilter_Reconstruction/build-WJ_firewall-Desktop_Qt_5_12_9_GCC_64bit-Debug/moc_predefs.h -I/opt/Qt5.12.9/5.12.9/gcc_64/mkspecs/linux-g++ -I/home/saxon/桌面/Firewal_Netfilter_Reconstruction/WJ_firewall -I/usr/local/ssl/include -I/opt/Qt5.12.9/5.12.9/gcc_64/include -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtGui -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore -I. -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include ../WJ_firewall/ruledialog_m.h -o moc_ruledialog_m.cpp
 
 moc_aboutdialog.cpp: ../WJ_firewall/aboutdialog.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/QDialog \
@@ -1429,7 +1487,7 @@ moc_aboutdialog.cpp: ../WJ_firewall/aboutdialog.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtGui/QFont \
 		moc_predefs.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/bin/moc
-	/opt/Qt5.12.9/5.12.9/gcc_64/bin/moc $(DEFINES) --include /home/saxon/桌面/Firewall-Based-on-Netfilter-master/build-WJ_firewall-Desktop_Qt_5_12_9_GCC_64bit-Debug/moc_predefs.h -I/opt/Qt5.12.9/5.12.9/gcc_64/mkspecs/linux-g++ -I/home/saxon/桌面/Firewall-Based-on-Netfilter-master/WJ_firewall -I/usr/local/ssl/include -I/opt/Qt5.12.9/5.12.9/gcc_64/include -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtGui -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore -I. -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include ../WJ_firewall/aboutdialog.h -o moc_aboutdialog.cpp
+	/opt/Qt5.12.9/5.12.9/gcc_64/bin/moc $(DEFINES) --include /home/saxon/桌面/Firewal_Netfilter_Reconstruction/build-WJ_firewall-Desktop_Qt_5_12_9_GCC_64bit-Debug/moc_predefs.h -I/opt/Qt5.12.9/5.12.9/gcc_64/mkspecs/linux-g++ -I/home/saxon/桌面/Firewal_Netfilter_Reconstruction/WJ_firewall -I/usr/local/ssl/include -I/opt/Qt5.12.9/5.12.9/gcc_64/include -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtGui -I/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore -I. -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include ../WJ_firewall/aboutdialog.h -o moc_aboutdialog.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -1580,10 +1638,68 @@ main.o: ../WJ_firewall/main.cpp ../WJ_firewall/mainwindow.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qdir.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qfileinfo.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/qdialog.h \
+		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QCoreApplication \
+		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qcoreapplication.h \
+		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qeventloop.h \
+		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QDebug \
+		/usr/local/ssl/include/openssl/ssl.h \
+		/usr/local/ssl/include/openssl/e_os2.h \
+		/usr/local/ssl/include/openssl/opensslconf.h \
+		/usr/local/ssl/include/openssl/opensslv.h \
+		/usr/local/ssl/include/openssl/comp.h \
+		/usr/local/ssl/include/openssl/crypto.h \
+		/usr/local/ssl/include/openssl/safestack.h \
+		/usr/local/ssl/include/openssl/stack.h \
+		/usr/local/ssl/include/openssl/ossl_typ.h \
+		/usr/local/ssl/include/openssl/cryptoerr.h \
+		/usr/local/ssl/include/openssl/symhacks.h \
+		/usr/local/ssl/include/openssl/ebcdic.h \
+		/usr/local/ssl/include/openssl/comperr.h \
+		/usr/local/ssl/include/openssl/bio.h \
+		/usr/local/ssl/include/openssl/bioerr.h \
+		/usr/local/ssl/include/openssl/x509.h \
+		/usr/local/ssl/include/openssl/buffer.h \
+		/usr/local/ssl/include/openssl/buffererr.h \
+		/usr/local/ssl/include/openssl/evp.h \
+		/usr/local/ssl/include/openssl/evperr.h \
+		/usr/local/ssl/include/openssl/objects.h \
+		/usr/local/ssl/include/openssl/obj_mac.h \
+		/usr/local/ssl/include/openssl/asn1.h \
+		/usr/local/ssl/include/openssl/asn1err.h \
+		/usr/local/ssl/include/openssl/bn.h \
+		/usr/local/ssl/include/openssl/bnerr.h \
+		/usr/local/ssl/include/openssl/objectserr.h \
+		/usr/local/ssl/include/openssl/ec.h \
+		/usr/local/ssl/include/openssl/ecerr.h \
+		/usr/local/ssl/include/openssl/rsa.h \
+		/usr/local/ssl/include/openssl/rsaerr.h \
+		/usr/local/ssl/include/openssl/dsa.h \
+		/usr/local/ssl/include/openssl/dh.h \
+		/usr/local/ssl/include/openssl/dherr.h \
+		/usr/local/ssl/include/openssl/dsaerr.h \
+		/usr/local/ssl/include/openssl/sha.h \
+		/usr/local/ssl/include/openssl/x509err.h \
+		/usr/local/ssl/include/openssl/x509_vfy.h \
+		/usr/local/ssl/include/openssl/lhash.h \
+		/usr/local/ssl/include/openssl/pkcs7.h \
+		/usr/local/ssl/include/openssl/pkcs7err.h \
+		/usr/local/ssl/include/openssl/pem.h \
+		/usr/local/ssl/include/openssl/pemerr.h \
+		/usr/local/ssl/include/openssl/hmac.h \
+		/usr/local/ssl/include/openssl/async.h \
+		/usr/local/ssl/include/openssl/asyncerr.h \
+		/usr/local/ssl/include/openssl/ct.h \
+		/usr/local/ssl/include/openssl/cterr.h \
+		/usr/local/ssl/include/openssl/sslerr.h \
+		/usr/local/ssl/include/openssl/ssl2.h \
+		/usr/local/ssl/include/openssl/ssl3.h \
+		/usr/local/ssl/include/openssl/tls1.h \
+		/usr/local/ssl/include/openssl/dtls1.h \
+		/usr/local/ssl/include/openssl/srtp.h \
+		/usr/local/ssl/include/openssl/err.h \
 		../WJ_firewall/common.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/QButtonGroup \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/qbuttongroup.h \
-		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QDebug \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/QDesktopWidget \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/qdesktopwidget.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QDir \
@@ -1635,8 +1751,6 @@ main.o: ../WJ_firewall/main.cpp ../WJ_firewall/mainwindow.h \
 		../WJ_firewall/ruledialog_m.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/QApplication \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/qapplication.h \
-		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qcoreapplication.h \
-		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qeventloop.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtGui/qguiapplication.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtGui/qinputmethod.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../WJ_firewall/main.cpp
@@ -1753,10 +1867,68 @@ mainwindow.o: ../WJ_firewall/mainwindow.cpp ../WJ_firewall/mainwindow.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qdir.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qfileinfo.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/qdialog.h \
+		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QCoreApplication \
+		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qcoreapplication.h \
+		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qeventloop.h \
+		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QDebug \
+		/usr/local/ssl/include/openssl/ssl.h \
+		/usr/local/ssl/include/openssl/e_os2.h \
+		/usr/local/ssl/include/openssl/opensslconf.h \
+		/usr/local/ssl/include/openssl/opensslv.h \
+		/usr/local/ssl/include/openssl/comp.h \
+		/usr/local/ssl/include/openssl/crypto.h \
+		/usr/local/ssl/include/openssl/safestack.h \
+		/usr/local/ssl/include/openssl/stack.h \
+		/usr/local/ssl/include/openssl/ossl_typ.h \
+		/usr/local/ssl/include/openssl/cryptoerr.h \
+		/usr/local/ssl/include/openssl/symhacks.h \
+		/usr/local/ssl/include/openssl/ebcdic.h \
+		/usr/local/ssl/include/openssl/comperr.h \
+		/usr/local/ssl/include/openssl/bio.h \
+		/usr/local/ssl/include/openssl/bioerr.h \
+		/usr/local/ssl/include/openssl/x509.h \
+		/usr/local/ssl/include/openssl/buffer.h \
+		/usr/local/ssl/include/openssl/buffererr.h \
+		/usr/local/ssl/include/openssl/evp.h \
+		/usr/local/ssl/include/openssl/evperr.h \
+		/usr/local/ssl/include/openssl/objects.h \
+		/usr/local/ssl/include/openssl/obj_mac.h \
+		/usr/local/ssl/include/openssl/asn1.h \
+		/usr/local/ssl/include/openssl/asn1err.h \
+		/usr/local/ssl/include/openssl/bn.h \
+		/usr/local/ssl/include/openssl/bnerr.h \
+		/usr/local/ssl/include/openssl/objectserr.h \
+		/usr/local/ssl/include/openssl/ec.h \
+		/usr/local/ssl/include/openssl/ecerr.h \
+		/usr/local/ssl/include/openssl/rsa.h \
+		/usr/local/ssl/include/openssl/rsaerr.h \
+		/usr/local/ssl/include/openssl/dsa.h \
+		/usr/local/ssl/include/openssl/dh.h \
+		/usr/local/ssl/include/openssl/dherr.h \
+		/usr/local/ssl/include/openssl/dsaerr.h \
+		/usr/local/ssl/include/openssl/sha.h \
+		/usr/local/ssl/include/openssl/x509err.h \
+		/usr/local/ssl/include/openssl/x509_vfy.h \
+		/usr/local/ssl/include/openssl/lhash.h \
+		/usr/local/ssl/include/openssl/pkcs7.h \
+		/usr/local/ssl/include/openssl/pkcs7err.h \
+		/usr/local/ssl/include/openssl/pem.h \
+		/usr/local/ssl/include/openssl/pemerr.h \
+		/usr/local/ssl/include/openssl/hmac.h \
+		/usr/local/ssl/include/openssl/async.h \
+		/usr/local/ssl/include/openssl/asyncerr.h \
+		/usr/local/ssl/include/openssl/ct.h \
+		/usr/local/ssl/include/openssl/cterr.h \
+		/usr/local/ssl/include/openssl/sslerr.h \
+		/usr/local/ssl/include/openssl/ssl2.h \
+		/usr/local/ssl/include/openssl/ssl3.h \
+		/usr/local/ssl/include/openssl/tls1.h \
+		/usr/local/ssl/include/openssl/dtls1.h \
+		/usr/local/ssl/include/openssl/srtp.h \
+		/usr/local/ssl/include/openssl/err.h \
 		../WJ_firewall/common.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/QButtonGroup \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/qbuttongroup.h \
-		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QDebug \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/QDesktopWidget \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/qdesktopwidget.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QDir \
@@ -1812,8 +1984,6 @@ mainwindow.o: ../WJ_firewall/mainwindow.cpp ../WJ_firewall/mainwindow.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/qactiongroup.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/QApplication \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/qapplication.h \
-		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qcoreapplication.h \
-		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qeventloop.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtGui/qguiapplication.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtGui/qinputmethod.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/QFrame \
@@ -1848,62 +2018,7 @@ mainwindow.o: ../WJ_firewall/mainwindow.cpp ../WJ_firewall/mainwindow.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/qstatusbar.h \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/QTabWidget \
 		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/QVBoxLayout \
-		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/QWidget \
-		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QCoreApplication \
-		/usr/local/ssl/include/openssl/ssl.h \
-		/usr/local/ssl/include/openssl/e_os2.h \
-		/usr/local/ssl/include/openssl/opensslconf.h \
-		/usr/local/ssl/include/openssl/opensslv.h \
-		/usr/local/ssl/include/openssl/comp.h \
-		/usr/local/ssl/include/openssl/crypto.h \
-		/usr/local/ssl/include/openssl/safestack.h \
-		/usr/local/ssl/include/openssl/stack.h \
-		/usr/local/ssl/include/openssl/ossl_typ.h \
-		/usr/local/ssl/include/openssl/cryptoerr.h \
-		/usr/local/ssl/include/openssl/symhacks.h \
-		/usr/local/ssl/include/openssl/ebcdic.h \
-		/usr/local/ssl/include/openssl/comperr.h \
-		/usr/local/ssl/include/openssl/bio.h \
-		/usr/local/ssl/include/openssl/bioerr.h \
-		/usr/local/ssl/include/openssl/x509.h \
-		/usr/local/ssl/include/openssl/buffer.h \
-		/usr/local/ssl/include/openssl/buffererr.h \
-		/usr/local/ssl/include/openssl/evp.h \
-		/usr/local/ssl/include/openssl/evperr.h \
-		/usr/local/ssl/include/openssl/objects.h \
-		/usr/local/ssl/include/openssl/obj_mac.h \
-		/usr/local/ssl/include/openssl/asn1.h \
-		/usr/local/ssl/include/openssl/asn1err.h \
-		/usr/local/ssl/include/openssl/bn.h \
-		/usr/local/ssl/include/openssl/bnerr.h \
-		/usr/local/ssl/include/openssl/objectserr.h \
-		/usr/local/ssl/include/openssl/ec.h \
-		/usr/local/ssl/include/openssl/ecerr.h \
-		/usr/local/ssl/include/openssl/rsa.h \
-		/usr/local/ssl/include/openssl/rsaerr.h \
-		/usr/local/ssl/include/openssl/dsa.h \
-		/usr/local/ssl/include/openssl/dh.h \
-		/usr/local/ssl/include/openssl/dherr.h \
-		/usr/local/ssl/include/openssl/dsaerr.h \
-		/usr/local/ssl/include/openssl/sha.h \
-		/usr/local/ssl/include/openssl/x509err.h \
-		/usr/local/ssl/include/openssl/x509_vfy.h \
-		/usr/local/ssl/include/openssl/lhash.h \
-		/usr/local/ssl/include/openssl/pkcs7.h \
-		/usr/local/ssl/include/openssl/pkcs7err.h \
-		/usr/local/ssl/include/openssl/pem.h \
-		/usr/local/ssl/include/openssl/pemerr.h \
-		/usr/local/ssl/include/openssl/hmac.h \
-		/usr/local/ssl/include/openssl/async.h \
-		/usr/local/ssl/include/openssl/asyncerr.h \
-		/usr/local/ssl/include/openssl/ct.h \
-		/usr/local/ssl/include/openssl/cterr.h \
-		/usr/local/ssl/include/openssl/sslerr.h \
-		/usr/local/ssl/include/openssl/ssl2.h \
-		/usr/local/ssl/include/openssl/ssl3.h \
-		/usr/local/ssl/include/openssl/tls1.h \
-		/usr/local/ssl/include/openssl/dtls1.h \
-		/usr/local/ssl/include/openssl/srtp.h
+		/opt/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o ../WJ_firewall/mainwindow.cpp
 
 common.o: ../WJ_firewall/common.cpp ../WJ_firewall/common.h \

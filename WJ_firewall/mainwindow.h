@@ -3,11 +3,23 @@
 
 #include <QMainWindow>
 #include <QFileDialog>
+#include <iostream>
+#include <QCoreApplication>
+#include <QDebug>
+#include <openssl/ssl.h>
+#include <openssl/rsa.h>
+#include <openssl/pem.h>
+#include <openssl/bn.h>
+#include <openssl/bio.h>
+#include <openssl/evp.h>
+#include <openssl/err.h>
+
 #include "common.h"
 #include "ruledialog.h"
 #include "aboutdialog.h"
 #include "messagedialog.h"
 #include "ruledialog_m.h"
+
 extern char controlinfo[64000];
 
 namespace Ui {
@@ -28,12 +40,10 @@ public:
     bool getRuleStringFile();
     void updateRuleNo();
 
-    //===== new from here =====
     bool setTrustStringFile();
     void updateTrustNo();
     bool sendTrustToFirewall();
     bool getTrustStringFile();
-    //===== end =====
 
 private slots:
     void on_pushButton_addRule_clicked();
@@ -55,20 +65,12 @@ private slots:
 
     void on_action_about_triggered();
 
-    //===== new from here =====
     void on_pushButton_addTrust_clicked();
-
     void on_pushButton_modTrust_clicked();
-
     void on_pushButton_delTrust_clicked();
-
     void addTrustString(rule_str_tp trustString);
-
     void modTrustString(rule_str_tp ruleString);
-
     void delTrustString(bool action);
-
-    //===== end =====
 
 private:
     Ui::MainWindow *ui;
@@ -84,11 +86,9 @@ private:
     RuleDialog *addTrustDialog;
     ruledialog_m *modTrustDialog;
 
-    //===== new from here =====
     MessageDialog *delTrustDialog;
     QList<rule_str_tp> trustStringList;
     QTableWidget *trustsTable;
-    //===== end =====
 };
 
 #endif // MAINWINDOW_H

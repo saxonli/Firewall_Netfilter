@@ -45,7 +45,7 @@ char port_buff_dst[10];
 char time_buff[50];
 char protocol_buff[10];
 
-char controlinfo[64000]; //存储多条规则，每条32byte
+char controlinfo[64000]; //存储2000条规则，每条32byte
 char *pchar; // pchar 为指向 controlinfo 的以 位 为单位的指针
 int num = 0; //规则条数
 
@@ -78,20 +78,6 @@ void sha256(char *str)
     }
 }
 
-// Deception 模块
-#define DEFAULT_TTL 64 // 路由器默认的初始 TTL 值
-#define DECEPTION_IP_MAX_NUM 60 // config 文件一行 IP 的最大数目
-#define DECEPTION_MAXHOP 4 // config 中的最大 TTL，注意和下面 unsigned int 型一样
-__u8 preserve_ttl;
-const unsigned int deception_maxhop = 4; // config 中的最大 TTL
-__be32 preserve_saddr;
-char deception_ip_line[DECEPTION_MAXHOP][1024]={
-	"192.168.1.3 192.168.10.3 192.168.11.3 ",
-	"192.168.2.3 192.168.12.3 192.168.13.3 ",
-	"192.168.6.3 192.168.3.3 ",
-	"192.168.5.3 192.168.4.3 "
-};
-
 char* generate_token(void) 
 {
 	int i;
@@ -110,26 +96,6 @@ char* generate_token(void)
     }
     token[6] = '\0';  // 添加字符串结束符
     return token;
-}
-
-/**
- * @func: 随机数生成函数
- * @desc: 用于生成一个随机数
- * @param: {NULL}  
- * @return: {一个int型随机数} 
- */
-// void get_random_bytes(void *buf, int nbytes);
-static int my_rand(void)
-{
-	unsigned long randNum[9];
-	int random_num=0;
-	int i = 0;
-	for (i=0; i<9; i++)
-	{
-		get_random_bytes(&randNum[i], sizeof(unsigned long));
-		random_num = random_num * 10 + randNum[i];
-	}
-	return random_num;
 }
 
 /**
@@ -210,41 +176,6 @@ bool cktime(struct rtc_time *tm)
 		else return 0;
 	}
 	return 0;
-}
-
-/**
- * @func: 校验和计算函数
- * @desc: 通用的一种校验和计算函数
- * @param: {}  
- * @return: {} 
- */
-unsigned short in_cksum(unsigned short *addr, int len)
-{
-    register int sum = 0;
-	u_short answer = 0;
-	register u_short *w = addr;
-	register int nleft = len;
-	/*
-	* Our algorithm is simple, using a 32 bit accumulator (sum), we add
-	* sequential 16 bit words to it, and at the end, fold back all the
-	* carry bits from the top 16 bits into the lower 16 bits.
-	*/
-	while (nleft > 1)
-	{
-		sum += *w++;
-		nleft -= 2;
-	}
-	/* mop up an odd byte, if necessary */
-	if (nleft == 1)
-	{
-		*(u_char *) (&answer) = *(u_char *) w;
-		sum += answer;
-	}
-	/* add back carry outs from top 16 bits to low 16 bits */
-	sum = (sum >> 16) + (sum & 0xffff);     /* add hi 16 to low 16 */
-	sum += (sum >> 16);             /* add carry */
-	answer = ~sum;              /* truncate to 16 bits */
-	return (answer);
 }
 
 /**
@@ -377,6 +308,7 @@ unsigned int pre_routing_hook_func(void * priv,struct sk_buff *skb,const struct 
 	int udp_dport;
 	int udp_data_len;
 	char *udp_data_start;
+	char trustmethod;
 
    	tmpskb = skb;
 	piphdr = ip_hdr(tmpskb);// IP 层包头获取
@@ -424,7 +356,7 @@ unsigned int pre_routing_hook_func(void * priv,struct sk_buff *skb,const struct 
 			strncpy(udp_data,udp_data_start,udp_data_len);
 			// printk("<WJ>udp_data: %s\n",udp_data);
 
-			char trustmethod=udp_data[0];
+			trustmethod=udp_data[0];
 			if(trustmethod == '1')// 可信 IP 处理
 			{
 				int i;
@@ -498,6 +430,10 @@ unsigned int pre_routing_hook_func(void * priv,struct sk_buff *skb,const struct 
 			}
 			else if(trustmethod == '3')// 哈希链签名认证
 			{
+				char cur_message[65];
+				char cur_hc[65];
+				char base[129];
+
 				if(piphdr->ttl == 1)
 				{
 					return NF_ACCEPT;
@@ -508,19 +444,16 @@ unsigned int pre_routing_hook_func(void * priv,struct sk_buff *skb,const struct 
 				// strncpy(identification,udp_data_start+1,4);
 
 				// 当前包的 message
-				char cur_message[65];
 				memset(cur_message,0,sizeof cur_message);
 				strncpy(cur_message,udp_data_start+5,64);
 				// printk("<WJ>cur_message:%s\n",cur_message);
 
 				// 当前包的 hc
-				char cur_hc[65];
 				memset(cur_hc,0,sizeof cur_hc);
 				strncpy(cur_hc,udp_data_start+69,64);
 				// printk("<WJ>cur_hc:%s\n",cur_hc);
 
 				// base of local hc
-				char base[129];
 				memset(base,0,sizeof base);
 
 				// h(message)
@@ -624,7 +557,7 @@ unsigned int post_routing_hook_func(void * priv,struct sk_buff *skb,const struct
 			}
 		}
 	}
-
+	
 	// 黑名单处理
 	if(num == 0) return NF_ACCEPT; // write_controlinfo 中计算过规则条数
 	else 

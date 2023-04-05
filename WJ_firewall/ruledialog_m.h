@@ -5,9 +5,6 @@
 #include <QTime>
 #include "common.h"
 extern rule_str_tp modrule;
-//===== new from here =====
-
-//===== end =====
 
 namespace Ui {
 class ruledialog_m;

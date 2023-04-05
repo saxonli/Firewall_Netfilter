@@ -1,90 +1,78 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
-#include <iostream>
-#include <QCoreApplication>
-#include <QDebug>
-#include <openssl/ssl.h>
-#include <openssl/rsa.h>
-#include <openssl/pem.h>
-#include <openssl/bn.h>
-#include <openssl/bio.h>
-#include <openssl/evp.h>
-#include <openssl/err.h>
-
-
-char controlinfo[64000]; // 规则条数这里有问题，以前是黑名单最多50条，现在加了可信表，二者变成了100条
+char controlinfo[64000];
 int numa=0;
 
-//===== 生成 seed 模块 =====
-// 01 SHA256 hash
-QString sha256(const QString &str)
-{
-    char buf[2];
-    unsigned char hash[SHA256_DIGEST_LENGTH];
-    QByteArray tmp=str.toLatin1();
-    char *cStr=tmp.data();
-    SHA256_CTX sha256;
-    SHA256_Init(&sha256);
-    SHA256_Update(&sha256, cStr, str.size());
-    SHA256_Final(hash, &sha256);
-    std::string newString = "";
-    for(int i = 0; i < SHA256_DIGEST_LENGTH; i++)
-    {
-        sprintf(buf,"%02x",hash[i]);
-        newString = newString + buf;
-    }
-    return QString::fromStdString(newString);
-}
-// 02 RSA
-QString rsaPriEncryptBase64(const QString &str)
-{
-    //私钥  长度为512  （使用自己生成的公秘钥）
-    char private_key[] ="-----BEGIN PRIVATE KEY-----\n"\
-            "MIIBVgIBADANBgkqhkiG9w0BAQEFAASCAUAwggE8AgEAAkEA0d8NA5dTs5J8ifcl\n"\
-            "CPw6Or/NOqIx5+cqildADsALH6hobxWsyDCjmPpiAWwIRX6ThJo9gmzwddgD3gfL\n"\
-            "ioxG0wIDAQABAkBnpzJWQ7cjSYYY3ed8uJZJzdEe1FyxnIp2KQGKR283AqDQGqFE\n"\
-            "F8CaRPUn/1y4K8QSG/rxpvUo4BVoohwA7WcBAiEA89uCUiWfi6GE+OBFg1kegm/w\n"\
-            "CGfKRWz38HgksMk+SCkCIQDcUlCHD/TmeL5OErBKBTzKW+i+bH6s7yUuyg0UqCym\n"\
-            "mwIhANvZogOHkfCj/SsXnvQNS7lTS/d4A19WH6530rRjqrgJAiEAjlhIWtq+WWFN\n"\
-            "YtfEOi6kFgHHn7AtL8Hafh5g0SXOo10CIQCIydQo0Se1PsxOcFfFnWJdPldk3GV/\n"\
-            "61TSzPkZ/nG5Lw==\n"\
-            "-----END PRIVATE KEY-----";
+////===== 生成 seed 模块 =====
+//// 01 SHA256 hash
+//QString sha256(const QString &str)
+//{
+//    char buf[2];
+//    unsigned char hash[SHA256_DIGEST_LENGTH];
+//    QByteArray tmp=str.toLatin1();
+//    char *cStr=tmp.data();
+//    SHA256_CTX sha256;
+//    SHA256_Init(&sha256);
+//    SHA256_Update(&sha256, cStr, str.size());
+//    SHA256_Final(hash, &sha256);
+//    std::string newString = "";
+//    for(int i = 0; i < SHA256_DIGEST_LENGTH; i++)
+//    {
+//        sprintf(buf,"%02x",hash[i]);
+//        newString = newString + buf;
+//    }
+//    return QString::fromStdString(newString);
+//}
+//// 02 RSA
+//QString rsaPriEncryptBase64(const QString &str)
+//{
+//    //私钥  长度为512  （使用自己生成的公秘钥）
+//    char private_key[] ="-----BEGIN PRIVATE KEY-----\n"\
+//            "MIIBVgIBADANBgkqhkiG9w0BAQEFAASCAUAwggE8AgEAAkEA0d8NA5dTs5J8ifcl\n"\
+//            "CPw6Or/NOqIx5+cqildADsALH6hobxWsyDCjmPpiAWwIRX6ThJo9gmzwddgD3gfL\n"\
+//            "ioxG0wIDAQABAkBnpzJWQ7cjSYYY3ed8uJZJzdEe1FyxnIp2KQGKR283AqDQGqFE\n"\
+//            "F8CaRPUn/1y4K8QSG/rxpvUo4BVoohwA7WcBAiEA89uCUiWfi6GE+OBFg1kegm/w\n"\
+//            "CGfKRWz38HgksMk+SCkCIQDcUlCHD/TmeL5OErBKBTzKW+i+bH6s7yUuyg0UqCym\n"\
+//            "mwIhANvZogOHkfCj/SsXnvQNS7lTS/d4A19WH6530rRjqrgJAiEAjlhIWtq+WWFN\n"\
+//            "YtfEOi6kFgHHn7AtL8Hafh5g0SXOo10CIQCIydQo0Se1PsxOcFfFnWJdPldk3GV/\n"\
+//            "61TSzPkZ/nG5Lw==\n"\
+//            "-----END PRIVATE KEY-----";
 
-    //将字符串键加载到bio对象
-    BIO* pKeyBio = BIO_new_mem_buf(private_key, strlen(private_key));
-    if (pKeyBio == NULL){
-        return "";
-    }
-    RSA* pRsa = RSA_new();
-    pRsa = PEM_read_bio_RSAPrivateKey(pKeyBio, &pRsa, NULL, NULL);
-    if ( pRsa == NULL ){
-         BIO_free_all(pKeyBio);
-         return "";
-    }
-    int nLen = RSA_size(pRsa);
-    char* pEncryptBuf = new char[nLen];
-    memset(pEncryptBuf, 0, nLen);
-    QByteArray clearDataArry = str.toUtf8();
-    int nClearDataLen = clearDataArry.length();
-    uchar* pClearData = (uchar*)clearDataArry.data();
-    int nSize = RSA_private_encrypt(nClearDataLen,
-                                    pClearData,
-                                    (uchar*)pEncryptBuf,
-                                    pRsa,
-                                    RSA_PKCS1_PADDING);
+//    //将字符串键加载到bio对象
+//    BIO* pKeyBio = BIO_new_mem_buf(private_key, strlen(private_key));
+//    if (pKeyBio == NULL){
+//        return "";
+//    }
+//    RSA* pRsa = RSA_new();
+//    pRsa = PEM_read_bio_RSAPrivateKey(pKeyBio, &pRsa, NULL, NULL);
+//    if ( pRsa == NULL ){
+//         BIO_free_all(pKeyBio);
+//         return "";
+//    }
+//    int nLen = RSA_size(pRsa);
+//    char* pEncryptBuf = new char[nLen];
+//    memset(pEncryptBuf, 0, nLen);
+//    QByteArray clearDataArry = str.toUtf8();
+//    int nClearDataLen = clearDataArry.length();
+//    uchar* pClearData = (uchar*)clearDataArry.data();
+//    int nSize = RSA_private_encrypt(nClearDataLen,
+//                                    pClearData,
+//                                    (uchar*)pEncryptBuf,
+//                                    pRsa,
+//                                    RSA_PKCS1_PADDING);
 
-    QString strEncryptData = "";
-    if ( nSize >= 0 ){
-         QByteArray arry(pEncryptBuf, nSize);
-         strEncryptData = arry.toBase64();
-    }
-    // 释放内存
-    delete pEncryptBuf;
-    BIO_free_all(pKeyBio);
-    RSA_free(pRsa);
-    return strEncryptData;
-}
+//    QString strEncryptData = "";
+//    if ( nSize >= 0 ){
+//         QByteArray arry(pEncryptBuf, nSize);
+//         strEncryptData = arry.toBase64();
+//    }
+//    // 释放内存
+//    delete pEncryptBuf;
+//    BIO_free_all(pKeyBio);
+//    RSA_free(pRsa);
+//    return strEncryptData;
+//}
 
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -118,7 +106,6 @@ MainWindow::MainWindow(QWidget *parent) :
     rulesTable->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     logTimer = new QTimer(this);
 
-    //===== new from here =====
     addTrustDialog = new RuleDialog(this);
     delTrustDialog = new MessageDialog(this);
     delTrustDialog->setMessage("确定要删除吗？");
@@ -138,7 +125,6 @@ MainWindow::MainWindow(QWidget *parent) :
     trustsTable->horizontalHeader()->setSectionResizeMode(8, QHeaderView::Stretch);
     trustsTable->horizontalHeader()->setSectionResizeMode(9, QHeaderView::Stretch);
     trustsTable->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-    //===== end =====
 
     // check mod，检查是否启动 “开启过滤” 按钮
     if (isModLoaded()){
@@ -158,22 +144,14 @@ MainWindow::MainWindow(QWidget *parent) :
 
     connect(logTimer, SIGNAL(timeout()), this, SLOT(updateLog()));
 
-    //===== new from here =====
     connect(addTrustDialog,SIGNAL(addNewRuleSignal(rule_str_tp)),
             this,SLOT(addTrustString(rule_str_tp)));
     connect(delTrustDialog,SIGNAL(actionSignal(bool)),
             this,SLOT(delTrustString(bool)));
-    //===== end =====
 
     //set table
     getRuleStringFile();
-
-
-    //===== new from here =====
-
     getTrustStringFile();
-
-    //===== end =====
 }
 
 MainWindow::~MainWindow()
@@ -205,7 +183,6 @@ bool MainWindow::sendTrustRuleToFirewall()
     int count = 0; //记录 rule + trust 数量
 
     // 这里是先写 trust 再写 rule ，方便后续防火墙内核的处理
-    //===== new from here =====
     // trust 转化为字符串再发送
     foreach(rule_str_tp trustString,trustStringList){
         if(ruleFromString_new(trustString,(controlinfo+(count*32)))){
@@ -215,7 +192,6 @@ bool MainWindow::sendTrustRuleToFirewall()
             return false;
         }
     }
-    //===== end =====
 
     // rule 转化为字符串再发送
     foreach(rule_str_tp ruleString, ruleStringList){
@@ -324,7 +300,7 @@ void MainWindow::updateRuleNo()
 
 void MainWindow::on_pushButton_addRule_clicked()
 {
-    if (ruleStringList.length() >= 50){
+    if (ruleStringList.length() >= 1000){
         QMessageBox::information(this, "提示", "规则数量已达上限！");
         return;
     }
@@ -640,22 +616,19 @@ void MainWindow::on_action_about_triggered()
     aboutDialog->exec();
 }
 
-
-
 //===== new from here =====
-
 void MainWindow::on_pushButton_addTrust_clicked()
 {
-    if (trustStringList.length() >= 50){
+    if (trustStringList.length() >= 1000){
         QMessageBox::information(this, "提示", "可信数量已达上限！");
         return;
     }
     addTrustDialog->exec();
 
     //===== new from here =====
-    QString genSeedStr = trustSeedGen(trustStringList[trustStringList.length()-1]);//生成 seed 的可信端基底信息
-    QString encryptSeedStr = rsaPriEncryptBase64(genSeedStr);//利用 RSA 私钥签名 seed 基底
-    QString seed = sha256(encryptSeedStr);//利用 sha256 哈希加密后的 seed 基底
+//    QString genSeedStr = trustSeedGen(trustStringList[trustStringList.length()-1]);//生成 seed 的可信端基底信息
+//    QString encryptSeedStr = rsaPriEncryptBase64(genSeedStr);//利用 RSA 私钥签名 seed 基底
+//    QString seed = sha256(encryptSeedStr);//利用 sha256 哈希加密后的 seed 基底
 //    QMessageBox::information(this, "可信端 seed 已生成", "seed: \n\n"+seed);
     setTrustStringFile();
     sendTrustRuleToFirewall();
@@ -677,9 +650,9 @@ void MainWindow::on_pushButton_modTrust_clicked()
 
     //===== new from here =====
     trustStringList[numa].action = "accept";
-    QString genSeedStr = trustSeedGen(trustStringList[numa]);//生成 seed 的可信端基底信息
-    QString encryptSeedStr = rsaPriEncryptBase64(genSeedStr);//利用 RSA 私钥签名 seed 基底
-    QString seed = sha256(encryptSeedStr);//利用 sha256 哈希加密后的 seed 基底
+//    QString genSeedStr = trustSeedGen(trustStringList[numa]);//生成 seed 的可信端基底信息
+//    QString encryptSeedStr = rsaPriEncryptBase64(genSeedStr);//利用 RSA 私钥签名 seed 基底
+//    QString seed = sha256(encryptSeedStr);//利用 sha256 哈希加密后的 seed 基底
 //    QMessageBox::information(this, "可信端 seed 已生成", "seed: \n\n"+seed);
     setTrustStringFile();
     sendTrustRuleToFirewall();
@@ -796,10 +769,10 @@ bool MainWindow::setTrustStringFile()
     }
     QTextStream stream(&f);
     foreach (rule_str_tp trustString, trustStringList) {
-        // seed add to trust.txt
-        QString genSeedStr = trustSeedGen(trustString);//生成 seed 的可信端基底信息
-        QString encryptSeedStr = rsaPriEncryptBase64(genSeedStr);//利用 RSA 私钥签名 seed 基底
-        QString seed = sha256(encryptSeedStr);//利用 sha256 哈希加密后的 seed 基底
+
+//        QString genSeedStr = trustSeedGen(trustString);//生成 seed 的可信端基底信息
+//        QString encryptSeedStr = rsaPriEncryptBase64(genSeedStr);//利用 RSA 私钥签名 seed 基底
+//        QString seed = sha256(encryptSeedStr);//利用 sha256 哈希加密后的 seed 基底
 
         QString temp = trustString.src_addr + "%"
                 + trustString.dst_addr + "%"
@@ -811,8 +784,7 @@ bool MainWindow::setTrustStringFile()
                 + trustString.hour_end + "%"
                 + trustString.min_end + "%"
                 + trustString.protocol + "%"
-                + trustString.action + "%"
-                + seed;
+                + trustString.action;
         stream << temp << endl;
     }
     f.close();

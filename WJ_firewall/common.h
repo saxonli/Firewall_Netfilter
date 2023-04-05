@@ -29,10 +29,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-
-#define RULE_COUNT_MAX  100  //最大规则数
+#define RULE_COUNT_MAX  1000  //最大规则数
 #define LOG_UPDATE_TIME 100 //ms
-
 
 struct rule_str_tp  //保存规则信息
 {
@@ -47,9 +45,7 @@ struct rule_str_tp  //保存规则信息
     QString min_end;   //8
     QString protocol;  //9 4B
 
-    //===== new from here =====
-    QString action;//新增 action 字段，区分规则与可信
-    //===== end =====
+    QString action;//新增 action 字段，区分黑名单规则与可信IP
 };
 
 bool ruleFromString_new(rule_str_tp ruleString, char *p_controlinfo);
@@ -57,7 +53,7 @@ bool ruleAddrCheck(QString addrString);
 bool rulePortCheck(QString portString);
 
 //===== new from here =====
-QString trustSeedGen(rule_str_tp trustString);// 生成 seed 的基底信息
+//QString trustSeedGen(rule_str_tp trustString);// 生成 seed 的基底信息
 //===== end =====
 
 #endif // COMMON_H

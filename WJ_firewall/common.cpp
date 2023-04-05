@@ -52,28 +52,6 @@ bool ruleFromString_new(rule_str_tp ruleString, char *p_controlinfo)
         return false;
     }
 
-//    if (strncmp(ruleString.protocol.toStdString().data(), "icmp",4) == 0 )
-//    {
-//            controlled_protocol = 1;
-//    }
-//    else if ( strncmp(ruleString.protocol.toStdString().data(), "tcp",3) == 0  )
-//    {
-//            controlled_protocol = 6;
-//    }
-//    else if (strncmp(ruleString.protocol.toStdString().data(), "udp",3) == 0 )
-//    {
-//            controlled_protocol = 17;
-//    }
-//    else if (strncmp( ruleString.protocol.toStdString().data(), "any",3) == 0 )
-//    {
-//            controlled_protocol = 0;
-//    }
-//    else
-//    {
-//        printf("Unkonwn protocol! please check and try again! \n");
-//        return false;
-//    }
-
     //源地址
     if (strncmp(ruleString.src_addr.toStdString().data(),"any",3) == 0)
         controlled_saddr = 0;
@@ -187,95 +165,94 @@ bool rulePortCheck(QString portString)
 }
 
 
-//===== new from here
-// 生成 seed 的基底信息（写入到controlinfo中的格式）
-// protocol + saddr + daddr + sport + dport + time_flag + time_begin + time_end
-QString trustSeedGen(rule_str_tp trustString)
-{
-    unsigned int trust_protocol = 0;
-    unsigned short trust_srcport = 0;
-    unsigned short trust_dstport = 0;
-    unsigned int trust_saddr = 0;
-    unsigned int trust_daddr = 0;
-    unsigned int trust_time_flag = 0;
-    unsigned int trust_time_begin = 0;
-    unsigned int trust_time_end = 0;
+////===== new from here
+//// 生成 seed 的基底信息（use to 写入到controlinfo中的格式）
+//QString trustSeedGen(rule_str_tp trustString)
+//{
+//    unsigned int trust_protocol = 0;
+//    unsigned short trust_srcport = 0;
+//    unsigned short trust_dstport = 0;
+//    unsigned int trust_saddr = 0;
+//    unsigned int trust_daddr = 0;
+//    unsigned int trust_time_flag = 0;
+//    unsigned int trust_time_begin = 0;
+//    unsigned int trust_time_end = 0;
 
-    //协议
-    if (strncmp(trustString.protocol.toStdString().data(), "icmp",4) == 0 )
-        trust_protocol = 1;
-    else if ( strncmp(trustString.protocol.toStdString().data(), "tcp",3) == 0  )
-        trust_protocol = 6;
-    else if ( strncmp(trustString.protocol.toStdString().data(), "udp",3) == 0 )
-        trust_protocol = 17;
-    else if (strncmp( trustString.protocol.toStdString().data(), "any",3) == 0 )
-        trust_protocol = 0;
-    else {
-        printf("Unkonwn protocol! please check and try again! \n");
-        trust_protocol = -1;
-    }
+//    //协议
+//    if (strncmp(trustString.protocol.toStdString().data(), "icmp",4) == 0 )
+//        trust_protocol = 1;
+//    else if ( strncmp(trustString.protocol.toStdString().data(), "tcp",3) == 0  )
+//        trust_protocol = 6;
+//    else if ( strncmp(trustString.protocol.toStdString().data(), "udp",3) == 0 )
+//        trust_protocol = 17;
+//    else if (strncmp( trustString.protocol.toStdString().data(), "any",3) == 0 )
+//        trust_protocol = 0;
+//    else {
+//        printf("Unkonwn protocol! please check and try again! \n");
+//        trust_protocol = -1;
+//    }
 
-    //源地址
-    if (strncmp(trustString.src_addr.toStdString().data(),"any",3) == 0)
-        trust_saddr = 0;
-    else if ( inet_aton(trustString.src_addr.toStdString().data(), (struct in_addr* )&trust_saddr) == 0){
-        printf("Invalid source ip address! please check and try again! \n ");
-        trust_saddr = -1;
-    }
+//    //源地址
+//    if (strncmp(trustString.src_addr.toStdString().data(),"any",3) == 0)
+//        trust_saddr = 0;
+//    else if ( inet_aton(trustString.src_addr.toStdString().data(), (struct in_addr* )&trust_saddr) == 0){
+//        printf("Invalid source ip address! please check and try again! \n ");
+//        trust_saddr = -1;
+//    }
 
-    //目的地址
-    if (strncmp(trustString.dst_addr.toStdString().data(),"any",3) == 0)
-        trust_daddr = 0;
-    else if ( inet_aton(trustString.dst_addr.toStdString().data(), (struct in_addr* )&trust_daddr) == 0){
-        printf("Invalid destination ip address! please check and try again! \n ");
-        trust_daddr = -1;
-    }
+//    //目的地址
+//    if (strncmp(trustString.dst_addr.toStdString().data(),"any",3) == 0)
+//        trust_daddr = 0;
+//    else if ( inet_aton(trustString.dst_addr.toStdString().data(), (struct in_addr* )&trust_daddr) == 0){
+//        printf("Invalid destination ip address! please check and try again! \n ");
+//        trust_daddr = -1;
+//    }
 
-    //源端口
-    unsigned short tmpport;
-    if (strncmp(trustString.src_port.toStdString().data(),"any",3) == 0)
-        trust_srcport = 0;
-    else {
-        tmpport = atoi(trustString.src_port.toStdString().data());
-        if (tmpport == 0){
-            printf("Invalid source port! please check and try again! \n ");
-            tmpport = -1;
-        }
-        trust_srcport = htons(tmpport);
-    }
+//    //源端口
+//    unsigned short tmpport;
+//    if (strncmp(trustString.src_port.toStdString().data(),"any",3) == 0)
+//        trust_srcport = 0;
+//    else {
+//        tmpport = atoi(trustString.src_port.toStdString().data());
+//        if (tmpport == 0){
+//            printf("Invalid source port! please check and try again! \n ");
+//            tmpport = -1;
+//        }
+//        trust_srcport = htons(tmpport);
+//    }
 
-    //目的端口
-    if (strncmp(trustString.dst_port.toStdString().data(),"any",3) == 0)
-        trust_dstport = 0;
-    else {
-        tmpport = atoi(trustString.dst_port.toStdString().data());
-        if (tmpport == 0){
-            printf("Invalid dst port! please check and try again! \n ");
-            tmpport = -1;
-        }
-        trust_dstport = htons(tmpport);
-    }
+//    //目的端口
+//    if (strncmp(trustString.dst_port.toStdString().data(),"any",3) == 0)
+//        trust_dstport = 0;
+//    else {
+//        tmpport = atoi(trustString.dst_port.toStdString().data());
+//        if (tmpport == 0){
+//            printf("Invalid dst port! please check and try again! \n ");
+//            tmpport = -1;
+//        }
+//        trust_dstport = htons(tmpport);
+//    }
 
-    //Time_Flag
-    if (strncmp(trustString.time_flag.toStdString().data(), "yes",3) == 0 )
-        trust_time_flag = 1;
-    else if ( strncmp(trustString.time_flag.toStdString().data(), "no",2) == 0  )
-        trust_time_flag = 0;
-    else {
-        printf("Time Flag Wrong! \n");
-        trust_time_flag = -1;
-    }
+//    //Time_Flag
+//    if (strncmp(trustString.time_flag.toStdString().data(), "yes",3) == 0 )
+//        trust_time_flag = 1;
+//    else if ( strncmp(trustString.time_flag.toStdString().data(), "no",2) == 0  )
+//        trust_time_flag = 0;
+//    else {
+//        printf("Time Flag Wrong! \n");
+//        trust_time_flag = -1;
+//    }
 
-    //Time_Begin
-    trust_time_begin = trustString.hour_begin.toInt()*60 + trustString.min_begin.toInt();
-    //Time_End
-    trust_time_end = trustString.hour_end.toInt()*60 + trustString.min_end.toInt();
+//    //Time_Begin
+//    trust_time_begin = trustString.hour_begin.toInt()*60 + trustString.min_begin.toInt();
+//    //Time_End
+//    trust_time_end = trustString.hour_end.toInt()*60 + trustString.min_end.toInt();
 
-    //放入字符串中
-    std::string genSeedStr = std::to_string(trust_protocol) + std::to_string(trust_saddr) +
-            std::to_string(trust_daddr) + std::to_string(trust_srcport) +
-            std::to_string(trust_dstport) + std::to_string(trust_time_flag) +
-            std::to_string(trust_time_begin) + std::to_string(trust_time_end);
+//    //放入字符串中
+//    std::string genSeedStr = std::to_string(trust_protocol) + std::to_string(trust_saddr) +
+//            std::to_string(trust_daddr) + std::to_string(trust_srcport) +
+//            std::to_string(trust_dstport) + std::to_string(trust_time_flag) +
+//            std::to_string(trust_time_begin) + std::to_string(trust_time_end);
 
-    return QString::fromStdString(genSeedStr);
-}
+//    return QString::fromStdString(genSeedStr);
+//}
